@@ -1,0 +1,525 @@
+nsp12,323,{"fel":true,"meme":true,"fraction":0.9978914357249666,"kind":"positive","branches":13,"MAF":0.24661624203821653,"trend":true,"hla":{"FPPTSFGPL":{"2":12312}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false,"variants":8}
+orf3a,57,{"fel":true,"meme":true,"fraction":0.99999999,"kind":"positive","branches":7,"MAF":0.2250923915114108,"trend":true,"hla":{"AVFQSASKI":{"3":40156}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true,"variants":19}
+nsp3,1103,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":7,"trend":true,"hla":{"YPNASFDNF":{"1":43837},"YPNAGFDNF":{"1":2}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":4}
+nsp5,108,{"fel":true,"meme":true,"fraction":0.99999999,"kind":"positive","branches":2,"trend":true,"hla":{"IQPGQTFSV":{"2":51624},"QPGQTFSVL":{"1":51624}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp13,290,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"hla":{"KSHFAIGLA":{"2":49765},"SHFAIGLAL":{"1":49626}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+spike,5,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"trend":true,"hla":{"FVFLVLLPL":{"3":42952},"VFLVLLPLV":{"2":42959}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true,"variants":4}
+orf3a,99,{"fel":true,"meme":false,"fraction":0.99999999,"kind":"positive","branches":4,"trend":true,"hla":{"VAAGLEAPF":{"2":52098}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":false}
+orf3a,110,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"APFLYLYAL":{"7":52305},"FLYLYALVY":{"5":52308},"LYLYALVYF":{"4":52300},"YLYALVYFL":{"3":52316}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false,"variants":2}
+nsp1,83,{"fel":false,"meme":true,"fraction":0.1058367668984348,"branches":1,"hla":{"ARTAPHGHV":{"7":52092},"RTAPHGHVM":{"6":51628},"VMVELVAEL":{"1":3}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false,"variants":4}
+nsp2,85,{"fel":true,"meme":true,"fraction":0.99999999,"kind":"positive","branches":12,"trend":true,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":16}
+nsp2,199,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"hla":{"SEVGPEHSL":{"3":48422}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp2,301,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"SFSASTSAF":{"2":48826},"FSASTSAFV":{"1":48826}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp3,477,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":false,"variants":2}
+nsp3,1198,{"fel":true,"meme":true,"fraction":0.5,"kind":"positive","branches":3,"trend":true,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp4,309,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":4,"hla":{"RFRRAFGEY":{"6":49928},"RRAFGEYSH":{"4":49872},"RAFGEYSHV":{"3":49870},"GEYSHVVAF":{"0":50828}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp13,276,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"VGMQKYSTL":{"4":49855}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp13,297,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"SHFAIGLAL":{"8":49626},"FAIGLALYY":{"6":49725},"LYYPSARIV":{"0":49687}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp13,504,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"hla":{"NPAWRKAVF":{"1":48032},"REFLTRNPA":{"7":48050}},"evo_support":false,"variants":14}
+spike,614,{"fel":true,"meme":true,"fraction":0.99999999,"kind":"positive","branches":15,"MAF":0.24580374435119434,"trend":true,"evo_support":true,"variants":8}
+spike,1027,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"hla":{"ASANLAATK":{"7":43286}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+geneN,139,{"fel":true,"meme":false,"fraction":0.0802898067767347,"kind":"negative","branches":0,"hla":{"ALNTPKDHI":{"1":52250}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false,"variants":5}
+geneN,203,{"fel":false,"meme":false,"fraction":0.1592220985821776,"branches":0,"MAF":0.3031025797588155,"trend":true,"hla":{"NSTPGSSKR":{"7":15636}},"evo_support":false,"variants":4}
+orf6,7,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"MFHLVDFQV":{"6":54052},"HLVDFQVTI":{"4":54046},"FQVTIAEIL":{"0":54065}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false,"variants":2}
+orf8,36,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"trend":true,"hla":{"QPYVVDDPC":{"7":53485},"YVVDDPCPI":{"5":53468}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp12,449,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":4,"trend":true,"hla":{"FAQDGNAAI":{"7":49787}},"evo_support":false}
+nsp1,149,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"KSFDLGDEL":{"8":51901}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp2,27,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp2,218,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"KTILRKGGR":{"4":48796}},"evo_support":false}
+nsp2,411,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"hla":{"LATNNLVVM":{"1":48883}},"evo_support":true}
+nsp3,74,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":3,"trend":true,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,106,{"fel":true,"meme":false,"fraction":0.2510543321381399,"kind":"negative","branches":0,"MAF":0.24436064605529184,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":6}
+nsp3,242,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KPTVVVNAA":{"7":43973},"VVNAANVYL":{"3":44009}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp3,276,{"fel":true,"meme":true,"fraction":0.001811734533946563,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp3,282,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false,"variants":2}
+nsp3,340,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":4,"hla":{"FGADPIHSL":{"4":43873},"GADPIHSLR":{"3":43872}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,537,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"SAFYILPSI":{"4":43971}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":3}
+nsp3,607,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ARFYFYTSK":{"5":43970}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp3,820,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":1,"trend":true,"hla":{"YYHTTDPSF":{"4":43882}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,902,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"hla":{"ALILAYCNK":{"8":43989}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1006,{"fel":true,"meme":true,"fraction":0.9934593418620018,"kind":"positive","branches":3,"hla":{"GTFTCASEY":{"5":43923},"CASEYTGNY":{"1":43979}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1022,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"hla":{"KHITSKETL":{"3":43975}},"evo_support":true,"variants":2}
+nsp3,1050,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FYKENSYTT":{"1":44007}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":9}
+nsp3,1107,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YPNASFDNF":{"5":43837},"YPNAGFDNF":{"5":2}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp3,1561,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VQMAPISAM":{"7":43989},"APISAMVRM":{"4":43990},"SAMVRMYIF":{"1":44013}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+nsp3,1884,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"hla":{"AQVAKSHSI":{"1":1}},"evo_support":true}
+nsp4,472,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"hla":{"REAACCHLA":{"8":50933}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp5,50,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"SEDMLNPNY":{"4":51726}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp5,90,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp5,220,{"fel":true,"meme":true,"fraction":0.969005558915829,"kind":"positive","branches":1,"hla":{"FLNRFTTTL":{"1":51705}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp5,248,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"hla":{"DHVDILGPL":{"3":51364}},"evo_support":true}
+nsp6,255,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FRYMNSQGL":{"4":51867}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp8,74,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false,"variants":3}
+nsp13,217,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YRGTTTYKL":{"6":49894}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+nsp13,280,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"VGMQKYSTL":{"8":49855}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp13,503,{"fel":true,"meme":true,"fraction":0.4737249966281103,"kind":"positive","branches":0,"hla":{"NPAWRKAVF":{"0":48032},"REFLTRNPA":{"6":48050}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp14,481,{"fel":true,"meme":true,"fraction":0.02092796266065089,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp14,503,{"fel":false,"meme":true,"fraction":0.008285265978529077,"branches":2,"hla":{"MMISAGFSL":{"3":36691},"MISAGFSLW":{"2":36692}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp15,39,{"fel":true,"meme":false,"fraction":0.99999999,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp15,216,{"fel":true,"meme":false,"fraction":0.2270073465170037,"kind":"negative","branches":0,"hla":{"MEIDFLELA":{"7":47143},"LELAMDEFI":{"2":47055}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp15,261,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"AKRFKESPF":{"6":47314},"RFKESPFEL":{"4":47317},"SPFELEDFI":{"0":47317}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,141,{"fel":true,"meme":true,"fraction":0.001026902426247922,"kind":"positive","branches":5,"hla":{"FQFCNDPFL":{"8":43342}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,244,{"fel":true,"meme":false,"fraction":0.9705185608117521,"kind":"positive","branches":2,"hla":{"TRFQTLLAL":{"8":43313},"LLALHRSYL":{"3":43293}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,302,{"fel":true,"meme":false,"fraction":0.0531375348693609,"kind":"negative","branches":0,"hla":{"ETKCTLKSF":{"4":43321}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+spike,821,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RSFIEDLLF":{"6":43343}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+spike,936,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":5,"trend":true,"evo_support":false}
+spike,943,{"fel":false,"meme":true,"fraction":0.000963794394584383,"branches":3,"hla":{"SSTASALGK":{"4":43238},"STASALGKL":{"3":43272}},"evo_support":false}
+spike,1191,{"fel":true,"meme":false,"fraction":0.994783588103447,"kind":"positive","branches":3,"hla":{"RLNEVAKNL":{"6":43339},"VAKNLNESL":{"2":43342}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+geneN,13,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":4,"trend":true,"hla":{"GPQNQRNAP":{"8":51409},"PQNQRNAPR":{"7":51402},"QRNAPRITF":{"4":51461}},"evo_support":true}
+geneN,14,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"hla":{"PQNQRNAPR":{"8":51402},"QRNAPRITF":{"5":51461}},"evo_support":false}
+geneN,41,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RSKQRRPQG":{"5":52285}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+geneN,80,{"fel":true,"meme":true,"fraction":0.9940741760981694,"kind":"positive","branches":4,"hla":{"SPDDQIGYY":{"1":52276}},"betas":"Episodic positive selection in the closely related bat/pangolin clade","evo_support":true}
+geneN,185,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":false,"variants":1}
+geneN,202,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":5,"hla":{"NSTPGSSKR":{"6":15636}},"evo_support":false}
+geneN,204,{"fel":false,"meme":false,"fraction":0.99,"branches":0,"MAF":0.3017020951799412,"trend":true,"hla":{"NSTPGSSKR":{"8":15636}},"evo_support":true,"variants":2}
+geneN,298,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ELIRQGTDY":{"8":52100},"LIRQGTDYK":{"7":52104},"TDYKHWPQI":{"2":52353}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+geneN,302,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"TDYKHWPQI":{"6":52353},"KHWPQIAQF":{"3":52349},"WPQIAQFAP":{"1":52371}},"evo_support":false,"variants":2}
+orf3a,43,{"fel":true,"meme":false,"fraction":0.1130581138066115,"kind":"negative","branches":0,"trend":true,"hla":{"IPIQASLPF":{"8":52289},"IQASLPFGW":{"6":52261},"ASLPFGWLI":{"4":52134}},"variants":5}
+orf3a,96,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VTVYSHLLL":{"8":52033},"TVYSHLLLV":{"7":52048}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+orf3a,97,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"hla":{"TVYSHLLLV":{"8":52048},"VAAGLEAPF":{"0":52098}},"evo_support":false}
+orf3a,101,{"fel":true,"meme":false,"fraction":0.9739312778902671,"kind":"positive","branches":2,"hla":{"VAAGLEAPF":{"4":52098},"LEAPFLYLY":{"0":52324}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf3a,134,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"RLWLCWKCR":{"8":52306},"CRSKNPLLY":{"1":52357},"RLLLCWKCR":{"8":10}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+orf3a,240,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"hla":{"IVDEPEEHV":{"4":52386}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":false}
+orf6,22,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LLIIMRTFK":{"7":54077},"LIIMRTFKV":{"6":54074},"IMRTFKVSI":{"4":54070},"MRTFKVSIW":{"3":53959},"TFKVSIWNL":{"1":53978},"KVSIWNLDY":{"0":6}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+orf7a,47,{"fel":false,"meme":true,"fraction":0.2667390015176282,"branches":3,"hla":{"IELSLIDFY":{"0":3}},"evo_support":false}
+orf7a,62,{"fel":true,"meme":true,"fraction":0.3231125069179527,"kind":"positive","branches":2,"hla":{"ITLATCELY":{"5":1},"LATCELYHY":{"3":1},"FAFACPDGV":{"0":4},"FLGIITTVA":{"7":1},"GIITTVAAF":{"5":1}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf7a,67,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FAFACPDGV":{"4":46343},"CPDGVKHVY":{"0":46346},"LATCELYHY":{"8":1},"QECSLQSCT":{"0":1}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+orf7a,73,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"CPDGVKHVY":{"6":46346},"GVKHVYQLR":{"3":46342},"QECSLQSCT":{"6":1},"QSCTQHQPY":{"1":1}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+orf8,10,{"fel":false,"meme":true,"fraction":0.07560437487936511,"branches":2,"hla":{"FLGIITTVA":{"4":53483},"GIITTVAAF":{"2":53484},"GIIITVAAF":{"2":19}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf8,35,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"QPYVVDDPC":{"6":53485},"YVVDDPCPI":{"4":53468}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+orf8,45,{"fel":true,"meme":false,"fraction":0.2546153711032187,"kind":"negative","branches":0,"trend":true,"hla":{"CPIHFYSKW":{"8":53520},"IHFYSKWYI":{"6":53539},"HFYSKWYIR":{"5":53542},"FYSKWYIRV":{"4":53544},"KWYIRVGAR":{"1":53466}},"variants":1}
+orf8,49,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FYSKWYIRV":{"8":53544},"KWYIRVGAR":{"5":53466},"VGARKSAPL":{"0":53486}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+orf8,84,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"NYTVSCLPF":{"6":49502},"TVSCLPFTI":{"4":49491},"LPFTINCQE":{"0":49493},"NYTVSCSPF":{"6":4074},"TVSCSPFTI":{"4":4072}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true,"variants":32}
+nsp12,97,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"evo_support":false}
+nsp12,744,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"DTDFVNEFY":{"6":50203},"FVNEFYAYL":{"3":50216}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+nsp12,922,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp16,216,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"hla":{"REQIDGYVM":{"0":46115}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp1,62,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"VEKGVLPQL":{"6":51824},"VLPQLEQPY":{"2":51927},"LPQLEQPYV":{"1":51934},"PQLEQPYVF":{"0":51938}},"evo_support":false}
+nsp1,82,{"fel":false,"meme":true,"fraction":0.06360971699923124,"branches":1,"hla":{"ARTAPHGHV":{"6":52092},"RTAPHGHVM":{"5":51628},"VMVELVAEL":{"0":3}},"evo_support":false}
+nsp1,85,{"fel":true,"meme":false,"fraction":0.2492345539544446,"kind":"negative","branches":0,"hla":{"RTAPHGHVM":{"8":51623},"VMVELVAEL":{"1":51626}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp1,86,{"fel":false,"meme":true,"fraction":0.04787766543561844,"branches":1,"hla":{"VMVELVAEL":{"2":51626},"RTAPHGHVM":{"8":5}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp1,117,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"HVGEIPVAY":{"7":51851},"IPVAYRKVL":{"3":51866},"VAYRKVLLR":{"1":51831},"AYRKVLLRK":{"0":51834},"IPVTYRKVL":{"3":5}},"evo_support":false}
+nsp2,2,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp2,123,{"fel":true,"meme":false,"fraction":0.9709350750794,"kind":"positive","branches":1,"hla":{"GRIRSVYPV":{"5":48759},"RIRSVYPVA":{"4":48749}},"evo_support":false}
+nsp2,212,{"fel":true,"meme":true,"fraction":0.9704830866428259,"kind":"positive","branches":4,"evo_support":true,"variants":1}
+nsp2,293,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FKLNEEIAI":{"6":48935},"NEEIAIILA":{"3":48936},"EIAIILASF":{"1":48926}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp2,304,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"SFSASTSAF":{"5":48826},"FSASTSAFV":{"4":48826}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp2,326,{"fel":true,"meme":true,"fraction":0.9706996353670043,"kind":"positive","branches":2,"evo_support":false}
+nsp2,462,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":false}
+nsp2,481,{"fel":true,"meme":true,"fraction":0.9740715330544394,"kind":"positive","branches":2,"evo_support":false}
+nsp2,537,{"fel":true,"meme":false,"fraction":0.2230620291879511,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp3,7,{"fel":false,"meme":true,"fraction":0.007579565001325395,"branches":2,"hla":{"FGDDTVIEV":{"0":44008}},"evo_support":true}
+nsp3,13,{"fel":false,"meme":true,"fraction":0.01103791336414417,"branches":1,"hla":{"FGDDTVIEV":{"6":44008}},"evo_support":false}
+nsp3,14,{"fel":false,"meme":true,"fraction":0.01095009981547379,"branches":2,"hla":{"FGDDTVIEV":{"7":44008}},"evo_support":true}
+nsp3,16,{"fel":false,"meme":true,"fraction":0.005195991163806202,"branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,21,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KSVNITFEL":{"2":43937}},"evo_support":false}
+nsp3,23,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"KSVNITFEL":{"4":43937}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,182,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,205,{"fel":false,"meme":true,"fraction":0.0009062213404026354,"branches":2,"hla":{"EVNSFSGYL":{"0":1}},"evo_support":true}
+nsp3,218,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":6,"hla":{"YLKLTDNVY":{"5":43778}},"evo_support":true}
+nsp3,287,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VLSGHNLAK":{"1":43982}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,297,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"NLAKHCLHV":{"6":43977},"LAKHCLHVV":{"5":43978},"CLHVVGPNV":{"1":44003}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,325,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"hla":{"YENFNQHEV":{"8":43968},"QHEVLLAPL":{"3":43959},"HEVLLAPLL":{"2":43962}},"evo_support":true}
+nsp3,350,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":1,"hla":{"LRVCVDTVR":{"6":43981},"DTVRTNVYL":{"1":43977},"TVRTNVYLA":{"0":43974}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,355,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"DTVRTNVYL":{"6":43977},"TVRTNVYLA":{"5":43974},"VRTNVYLAV":{"4":43992},"RTNVYLAVF":{"3":43991},"NVYLAVFDK":{"1":43999}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,428,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":4,"trend":true,"evo_support":true}
+nsp3,551,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"QEILGTVSW":{"4":44014}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,644,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"AARYMRSLK":{"0":43926}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,676,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+nsp3,679,{"fel":true,"meme":true,"fraction":0.5,"kind":"positive","branches":2,"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,744,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"NLKTLLSLR":{"7":43985}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,779,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,821,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YYHTTDPSF":{"5":43882}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,934,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KRVLNVVCK":{"7":44013}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,947,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KGVEAVMYM":{"2":43837}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,982,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VQQESPFVM":{"2":44001}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1004,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"GTFTCASEY":{"3":43923}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1036,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1063,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":1,"hla":{"TTIKPVTYK":{"6":43997}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1299,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KPNELSRVL":{"8":43961},"SRVLGLKTL":{"3":43941}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1568,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"SAMVRMYIF":{"8":44013},"RMYIFFASF":{"4":44013}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1679,{"fel":true,"meme":false,"fraction":0.9706996353670043,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1682,{"fel":true,"meme":false,"fraction":0.0966678501224899,"kind":"negative","branches":0,"hla":{"GSIHLYFDK":{"1":43983}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1693,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":2,"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1885,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"AQVAKSHSI":{"2":1}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,37,{"fel":false,"meme":true,"fraction":0.02488362029612512,"branches":3,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp4,76,{"fel":true,"meme":false,"fraction":0.2484398423085824,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":26}
+nsp4,89,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YTNDKACPL":{"7":50971}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,92,{"fel":true,"meme":true,"fraction":0.9934593418620018,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,111,{"fel":true,"meme":true,"fraction":0.01018413442070698,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,112,{"fel":true,"meme":false,"fraction":0.4645750628761476,"kind":"positive","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp4,166,{"fel":true,"meme":false,"fraction":0.979001418194718,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,181,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp4,223,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":1}
+nsp4,238,{"fel":true,"meme":false,"fraction":0.99999999,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,327,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"FTVLCLTPV":{"1":50956},"TVLCLTPVY":{"0":50964}},"evo_support":true}
+nsp4,397,{"fel":true,"meme":true,"fraction":0.9727072907257537,"kind":"positive","branches":1,"hla":{"NYLKRRVVF":{"1":50907}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,446,{"fel":true,"meme":true,"fraction":0.5,"kind":"positive","branches":0,"hla":{"TQYNRYLAL":{"7":50940}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp6,208,{"fel":true,"meme":true,"fraction":0.992683290062453,"kind":"positive","branches":2,"trend":true,"evo_support":true}
+nsp7,3,{"fel":true,"meme":false,"fraction":0.2454628587742094,"kind":"negative","branches":0,"hla":{"MSDVKCTSV":{"0":53986}},"evo_support":false}
+nsp8,122,{"fel":true,"meme":false,"fraction":0.99999999,"kind":"positive","branches":1,"hla":{"IPLTTAAKL":{"2":53605}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp8,123,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"IPLTTAAKL":{"3":53605},"TTAAKLMVV":{"0":53482}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,74,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":4,"hla":{"KSHKPPISF":{"1":49731}},"evo_support":true}
+nsp13,241,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"MPLSAPTLV":{"8":49840}},"evo_support":true}
+nsp13,303,{"fel":true,"meme":true,"fraction":0.9698162887926,"kind":"positive","branches":1,"hla":{"LYYPSARIV":{"6":49687},"YYPSARIVY":{"5":49825}},"evo_support":false}
+nsp13,377,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"DEISMATNY":{"3":49887},"ISMATNYDL":{"1":49887}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,406,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"AQLPAPRTL":{"3":49877}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,505,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"NPAWRKAVF":{"2":48032},"REFLTRNPA":{"8":48050}},"evo_support":true}
+nsp14,7,{"fel":true,"meme":false,"fraction":0.2605313742552631,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":24}
+nsp14,275,{"fel":true,"meme":true,"fraction":0.9697977528507242,"kind":"positive","branches":1,"hla":{"AHVASCDAI":{"8":36713},"HVASCDAIM":{"7":36713},"ASCDAIMTR":{"5":36715},"AIMTRCLAV":{"1":36706}},"evo_support":false}
+nsp14,280,{"fel":true,"meme":false,"fraction":0.2303957226917352,"kind":"negative","branches":0,"hla":{"AIMTRCLAV":{"6":36706},"RCLAVHECF":{"2":36730},"CLAVHECFV":{"1":36718}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp14,423,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KHAFHTPAF":{"0":36691}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp14,433,{"fel":false,"meme":true,"fraction":0.009651646007097558,"branches":1,"hla":{"TPAFDKSAF":{"5":36676}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp14,495,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"HANEYRLYL":{"8":36713},"NEYRLYLDA":{"6":36707},"LYLDAYNMM":{"2":36686},"YLDAYNMMI":{"1":36697}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp15,19,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"trend":true,"hla":{"QQGEVPVSI":{"1":47160}},"evo_support":true}
+nsp15,147,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+spike,10,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FVFLVLLPL":{"8":42952},"VFLVLLPLV":{"7":42959},"LPLVSSQCV":{"2":43271}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+spike,26,{"fel":true,"meme":true,"fraction":0.9703771810460698,"kind":"positive","branches":1,"trend":true,"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+spike,61,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LPFFSNVTW":{"5":43362}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,142,{"fel":true,"meme":true,"fraction":0.5,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,186,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+spike,269,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YLQPRTFLL":{"0":43314}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,270,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YLQPRTFLL":{"1":43314}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,272,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YLQPRTFLL":{"3":43314}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,290,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ITDAVDCAL":{"5":43309}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,306,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ETKCTLKSF":{"8":43321}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,372,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"SVLYNSASF":{"6":43320},"YNSASFSTF":{"3":43344},"NSASFSTFK":{"2":43342},"ASFSTFKCY":{"0":43351}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,373,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"SVLYNSASF":{"7":43320},"YNSASFSTF":{"4":43344},"NSASFSTFK":{"3":43342},"ASFSTFKCY":{"1":43351}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,389,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"NDLCFTNVY":{"1":43362}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,413,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RQIAPGQTG":{"5":43334},"QIAPGQTGK":{"4":43335},"APGQTGKIA":{"2":43336},"GQTGKIADY":{"0":43339}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,428,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LPDDFTGCV":{"3":43363}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,454,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"NYNYLYRLF":{"6":43360},"YNYLYRLFR":{"5":43359},"YRLFRKSNL":{"1":43359},"RLFRKSNLK":{"0":43360}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,675,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":4,"trend":true,"evo_support":true}
+spike,715,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"IAIPTNFTI":{"3":43337},"IPTNFTISV":{"1":43338}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,722,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"IPTNFTISV":{"8":43338},"FTISVTTEI":{"4":43362}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,723,{"fel":true,"meme":false,"fraction":0.2478146458881398,"kind":"negative","branches":0,"hla":{"FTISVTTEI":{"5":43362}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,724,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FTISVTTEI":{"6":43362}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,764,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"NRALTGIAV":{"0":43240}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,789,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KQIYKTPPI":{"3":43327}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,816,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RSFIEDLLF":{"1":43343}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,824,{"fel":true,"meme":false,"fraction":0.2626535669402984,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+spike,846,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":false}
+spike,890,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"WTFGAGAAL":{"4":43339}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+spike,1019,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"AEIRASANL":{"3":43309}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1090,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FPREGVFVS":{"1":43351}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1100,{"fel":true,"meme":false,"fraction":0.2708275173146386,"kind":"negative","branches":0,"hla":{"GTHWFVTQR":{"1":43331}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1140,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"trend":true,"hla":{"VYDPLQPEL":{"3":42944}},"evo_support":true}
+spike,1181,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"NASVVNIQK":{"8":43288},"KEIDRLNEV":{"0":43355}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1215,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"QYIKWPWYI":{"7":42104}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1230,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"IAIVMVTIM":{"5":43319}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneM,30,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LTWICLLQF":{"1":53334}},"evo_support":true,"variants":2}
+geneM,53,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":2}
+geneM,69,{"fel":true,"meme":false,"fraction":0.1985438666224766,"kind":"negative","branches":0,"hla":{"FVLAAVYRI":{"4":53320},"FVLAAIYRI":{"4":19}},"evo_support":true,"variants":1}
+geneM,79,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+geneM,93,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"GLMWLSYFI":{"4":53401},"WLSYFIASF":{"1":53412},"LSYFIASFR":{"0":53414}},"evo_support":true,"variants":2}
+geneM,106,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"SFRLFARTR":{"7":53406},"RLFARTRSM":{"5":53373},"ARTRSMWSF":{"2":53377},"RTRSMWSFN":{"1":53380}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneM,117,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"TNILLNVPL":{"1":53404}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneM,120,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"TNILLNVPL":{"4":53404}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneM,141,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LESELVIGA":{"7":53410},"SELVIGAVI":{"5":53406},"LVIGAVILR":{"3":53384}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneM,204,{"fel":false,"meme":true,"fraction":0.006073626685231148,"branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+geneN,8,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"MSDNGPQNQ":{"7":52272},"GPQNQRNAP":{"3":51409},"PQNQRNAPR":{"2":51402}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,18,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"evo_support":true}
+geneN,33,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"trend":true,"evo_support":true}
+geneN,73,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FPRGQGVPI":{"7":52351}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,110,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KDLSPRWYF":{"8":51420},"LSPRWYFYY":{"6":52404},"SPRWYFYYL":{"5":52401}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,151,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"hla":{"DHIGTRNPA":{"7":52274},"GTRNPANNA":{"4":52344}},"evo_support":false}
+geneN,265,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":0,"hla":{"KPRQKRTAT":{"8":52386},"RTATKAYNV":{"3":52373}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,268,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RTATKAYNV":{"6":52373},"KAYNVTQAF":{"2":52354},"YNVTQAFGR":{"0":52344}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,276,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"YNVTQAFGR":{"8":52344},"NVTQAFGRR":{"7":52343}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,291,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ELIRQGTDY":{"1":52100},"LIRQGTDYK":{"0":52104}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,305,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KHWPQIAQF":{"6":52349},"WPQIAQFAP":{"4":52371},"AQFAPSASA":{"0":52357}},"evo_support":true,"variants":69}
+geneN,315,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FAPSASAFF":{"8":52375},"ASAFFGMSR":{"4":52383}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,326,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"MEVTPSGTW":{"4":52284},"TPSGTWLTY":{"1":52298}},"evo_support":true}
+geneN,333,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"TPSGTWLTY":{"8":52298}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,360,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LLNKHIDAY":{"8":52377}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf3a,36,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VRATATIPI":{"7":52409},"ATIPIQASL":{"3":52376},"IPIQASLPF":{"1":52289}},"betas":"Negatively selected in the closely related bat/pangolin clade"}
+orf3a,41,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"hla":{"ATIPIQASL":{"8":52376},"IPIQASLPF":{"6":52289},"IQASLPFGW":{"4":52261},"ASLPFGWLI":{"2":52134}}}
+orf3a,85,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VHFVCNLLL":{"8":52391},"HFVCNLLLL":{"7":52352},"FVCNLLLLF":{"6":52406}},"evo_support":false}
+orf3a,104,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"hla":{"VAAGLEAPF":{"7":52098},"LEAPFLYLY":{"3":52324},"APFLYLYAL":{"1":52305}},"evo_support":false}
+orf3a,123,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FVRIIMRLW":{"3":52416},"VRIIMRLLL":{"2":10},"IIMRLLLCW":{"0":10}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf3a,125,{"fel":true,"meme":false,"fraction":0.2493885717370532,"kind":"negative","branches":0,"hla":{"FVRIIMRLW":{"5":52416},"IMRLWLCWK":{"1":52323},"VRIIMRLLL":{"4":10},"IIMRLLLCW":{"2":10},"IMRLLLCWK":{"1":10}},"betas":"Negatively selected in the closely related bat/pangolin clade"}
+orf3a,130,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"IMRLWLCWK":{"6":52323},"RLWLCWKCR":{"4":52306},"IIMRLLLCW":{"7":10},"IMRLLLCWK":{"6":10},"RLLLCWKCR":{"4":10}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf3a,131,{"fel":true,"meme":false,"fraction":0.2501143586556984,"kind":"negative","branches":0,"hla":{"IMRLWLCWK":{"7":52323},"RLWLCWKCR":{"5":52306},"IIMRLLLCW":{"8":10},"IMRLLLCWK":{"7":10},"RLLLCWKCR":{"5":10}},"evo_support":false}
+orf3a,133,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RLWLCWKCR":{"7":52306},"CRSKNPLLY":{"0":52357},"RLLLCWKCR":{"7":10}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf3a,138,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"CRSKNPLLY":{"5":52357}},"betas":"Negatively selected in the closely related bat/pangolin clade"}
+orf3a,155,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"trend":true,"betas":"Negatively selected in the closely related bat/pangolin clade"}
+orf6,51,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LTENKYSQL":{"7":54105},"SQLDEEQPM":{"1":54016}},"evo_support":true,"variants":12}
+orf6,61,{"fel":true,"meme":false,"fraction":0.2325477986420206,"kind":"negative","branches":0,"trend":true,"evo_support":false}
+orf7a,43,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"GTYEGNSPF":{"5":46332}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf7a,54,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LADNKFALT":{"5":46322},"ILFLALITL":{"3":1},"IELSLIDFY":{"7":3},"ELSLIDFYL":{"6":2},"SLIDFYLCF":{"4":4},"LIDFYLCFL":{"3":1},"IDFYLCFLA":{"2":1},"FYLCFLAFL":{"0":1}},"evo_support":false}
+orf7a,55,{"fel":false,"meme":true,"fraction":0.06460595433327676,"branches":1,"hla":{"LADNKFALT":{"6":46322},"ILFLALITL":{"4":1},"IELSLIDFY":{"8":3},"ELSLIDFYL":{"7":2},"SLIDFYLCF":{"5":4},"LIDFYLCFL":{"4":1},"IDFYLCFLA":{"3":1},"FYLCFLAFL":{"1":1},"YLCFLAFLL":{"0":1}},"evo_support":false}
+orf7a,59,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ILFLALITL":{"8":1},"ITLATCELY":{"2":1},"LATCELYHY":{"0":1},"FLGIITTVA":{"4":1},"GIITTVAAF":{"2":1},"SLIDFYLCF":{"8":4},"LIDFYLCFL":{"7":1},"IDFYLCFLA":{"6":1},"FYLCFLAFL":{"4":1},"YLCFLAFLL":{"3":1},"LCFLAFLLF":{"2":1},"FLAFLLFLV":{"0":1}},"betas":"Episodic positive selection in the closely related bat/pangolin clade","evo_support":true}
+orf7a,61,{"fel":false,"meme":true,"fraction":0.0107850933234328,"branches":1,"hla":{"ITLATCELY":{"4":1},"LATCELYHY":{"2":1},"FLGIITTVA":{"6":1},"GIITTVAAF":{"4":1}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+orf7a,92,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KLFIRQEEV":{"7":46370},"IRQEEVQEL":{"4":46288},"EVQELYSPI":{"0":46261}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf7a,97,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"EVQELYSPI":{"5":46261},"VQELYSPIF":{"4":46253},"QELYSPIFL":{"3":46268},"LYSPIFLIV":{"1":46238},"CPIHFYSKW":{"5":1},"IHFYSKWYI":{"3":1},"HFYSKWYIR":{"2":1},"FYSKWYIRV":{"1":1}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf7a,116,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VFITLCFTL":{"8":46342},"FITLCFTLK":{"7":46359},"ITLCFTLKR":{"6":46361},"TLCFTLKRK":{"5":46360},"MLIIFWFSL":{"8":2},"IIFWFSLEL":{"6":2}},"evo_support":false}
+orf8,12,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FLGIITTVA":{"6":53483},"GIITTVAAF":{"4":53484},"GIIITVAAF":{"4":19}},"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+orf8,19,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"QECSLQSCT":{"1":52553}},"betas":"Negatively selected in the closely related bat/pangolin clade"}
+orf8,30,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"QSCTQHQPY":{"7":52577},"QPYVVDDPC":{"1":53485}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf8,44,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"CPIHFYSKW":{"7":53520},"IHFYSKWYI":{"5":53539},"HFYSKWYIR":{"4":53542},"FYSKWYIRV":{"3":53544},"KWYIRVGAR":{"0":53466}},"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+orf8,69,{"fel":true,"meme":false,"fraction":0.99999999,"kind":"positive","branches":2,"hla":{"GSKSPIQYI":{"3":53429}},"evo_support":true}
+orf8,117,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LEYHDVRVV":{"8":53554}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,32,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true,"variants":3}
+nsp12,329,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"hla":{"FPPTSFGPL":{"8":12312}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,367,{"fel":true,"meme":true,"fraction":0.002311467525538236,"kind":"positive","branches":1,"hla":{"SRLSFKELL":{"3":50226},"LSFKELLVY":{"1":50226}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,455,{"fel":true,"meme":false,"fraction":0.1271876192650629,"kind":"negative","branches":0,"hla":{"YYRYNLPTM":{"0":50193}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,500,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KSAGFPFNK":{"0":50236}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,531,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"DALFAYTKR":{"6":50198},"FAYTKRNVI":{"3":50227}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,595,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VVIGTSKFY":{"8":50206},"GTSKFYGGW":{"5":50230},"KFYGGWHNM":{"2":50193},"FYGGWHNML":{"1":50193}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,621,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"HLMGWDYPK":{"8":50160}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,628,{"fel":true,"meme":false,"fraction":0.08249789416060649,"kind":"negative","branches":0,"hla":{"RAMPNMLRI":{"4":50187},"MPNMLRIMA":{"2":50184}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,662,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RLANECAQV":{"8":50195},"LANECAQVL":{"7":50195},"AQVLSEMVM":{"2":50057}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,701,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"AVTANVNAL":{"2":50224},"VTANVNALL":{"1":50231}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp16,111,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"FVSDADSTL":{"8":46122},"VSDADSTLI":{"7":46120}},"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp16,126,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":false}
+nsp16,213,{"fel":true,"meme":true,"fraction":0.99999999,"kind":"positive","branches":2,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp1,122,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"IPVAYRKVL":{"8":51866},"VAYRKVLLR":{"6":51831},"AYRKVLLRK":{"5":51834},"VLLRKNGNK":{"1":51886},"IPVTYRKVL":{"8":5}}}
+nsp2,1,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":false}
+nsp2,6,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp2,19,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp2,24,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp2,30,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp2,106,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp2,166,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp2,267,{"fel":true,"meme":false,"fraction":0.2151033448162553,"kind":"negative","branches":0,"hla":{"GLNDNLLEI":{"2":47509}},"evo_support":true}
+nsp2,308,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FSASTSAFV":{"8":48826}},"evo_support":true}
+nsp2,318,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp2,380,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":4,"evo_support":true}
+nsp2,472,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp2,548,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"EETGLLMPL":{"3":48870}},"evo_support":true}
+nsp2,631,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"NMMVTNNTF":{"6":48939},"MVTNNTFTL":{"4":48875},"VTNNTFTLK":{"3":48874}}}
+nsp3,1,{"fel":false,"meme":true,"fraction":0.02103016292040605,"branches":2,"evo_support":true}
+nsp3,5,{"fel":false,"meme":true,"fraction":0.002976202315071008,"branches":2,"evo_support":true}
+nsp3,12,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FGDDTVIEV":{"5":44008}},"evo_support":true}
+nsp3,39,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,181,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":3,"evo_support":true}
+nsp3,305,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,384,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,425,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,432,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,455,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LVSDIDITF":{"3":43994}},"evo_support":true}
+nsp3,481,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,484,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,512,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,524,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,575,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"MPVCVETKA":{"4":43993}},"evo_support":true}
+nsp3,597,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,616,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,620,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,667,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,795,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"HEGKTFYVL":{"0":44013}},"evo_support":true}
+nsp3,926,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp3,963,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"EQFKKGVQI":{"4":43960}},"evo_support":true}
+nsp3,970,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true,"variants":2}
+nsp3,1089,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1153,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1200,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1214,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp3,1216,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp3,1298,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KPNELSRVL":{"7":43961},"SRVLGLKTL":{"2":43941}},"evo_support":true}
+nsp3,1378,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1389,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp3,1402,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1479,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1524,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"TRFFYVLGL":{"7":44004}},"evo_support":true}
+nsp3,1541,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1573,{"fel":true,"meme":false,"fraction":0.242595069917878,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1583,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1588,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1603,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1652,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1662,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1690,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1705,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1719,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1734,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1739,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1757,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1806,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1813,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1820,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1845,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1859,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp3,1879,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp4,33,{"fel":true,"meme":false,"fraction":0.2473095301075342,"kind":"negative","branches":0,"hla":{"YLITPVHVM":{"8":50837}},"evo_support":true}
+nsp4,313,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"RRAFGEYSH":{"8":49872},"RAFGEYSHV":{"7":49870},"GEYSHVVAF":{"4":50828},"SHVVAFNTL":{"1":50921}},"evo_support":true}
+nsp4,324,{"fel":true,"meme":false,"fraction":0.2500461263010919,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp5,298,{"fel":true,"meme":false,"fraction":0.2152130097852352,"kind":"negative","branches":0,"hla":{"EFTPFDVVR":{"8":51751},"VRQCSGVTF":{"1":51726}},"evo_support":true}
+nsp6,73,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FLLPSLATV":{"3":51729},"LPSLATVAY":{"1":51726}},"evo_support":true}
+nsp6,178,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp6,188,{"fel":true,"meme":true,"fraction":0.9951585435838544,"kind":"positive","branches":2,"evo_support":true}
+nsp7,62,{"fel":true,"meme":false,"fraction":0.2373775563648108,"kind":"negative","branches":0,"hla":{"LSMQGAVDI":{"2":53982},"MQGAVDINK":{"0":53984}},"evo_support":true}
+nsp8,94,{"fel":true,"meme":false,"fraction":0.2062521056952162,"kind":"negative","branches":0,"hla":{"MQTMLFTML":{"7":53597},"QTMLFTMLR":{"6":53597},"TMLFTMLRK":{"5":53597}}}
+nsp8,154,{"fel":true,"meme":false,"fraction":0.247505123202287,"kind":"negative","branches":0,"hla":{"TYASALWEI":{"6":53578},"ALWEIQQVV":{"2":53582}},"evo_support":true}
+nsp8,194,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"ALRANSAVK":{"6":53619},"LRANSAVKL":{"5":53619}},"evo_support":true}
+nsp13,2,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,7,{"fel":true,"meme":true,"fraction":0.004175986064398951,"kind":"positive","branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,78,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"hla":{"KSHKPPISF":{"5":49731},"HKPPISFPL":{"3":49787}},"evo_support":true}
+nsp13,95,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,206,{"fel":true,"meme":true,"fraction":0.9740349375538501,"kind":"positive","branches":1,"evo_support":false}
+nsp13,226,{"fel":true,"meme":false,"fraction":0.9698315720470443,"kind":"positive","branches":1,"hla":{"KLNVGDYFV":{"8":49857},"FVLTSHTVM":{"1":49854}},"evo_support":true}
+nsp13,250,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,337,{"fel":true,"meme":false,"fraction":0.2122332444329431,"kind":"negative","branches":0,"evo_support":true,"variants":3}
+nsp13,429,{"fel":true,"meme":false,"fraction":0.2707959417385591,"kind":"negative","branches":0,"variants":4}
+nsp13,533,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp13,535,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp14,26,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":0,"hla":{"HPTQAPTHL":{"7":36667}},"evo_support":true}
+nsp14,315,{"fel":true,"meme":false,"fraction":0.2497552212970079,"kind":"negative","branches":0,"hla":{"QHMVVKAAL":{"2":36353}},"evo_support":true}
+nsp14,345,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"hla":{"QADVEWKFY":{"2":36689}},"evo_support":true}
+nsp14,353,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp14,451,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp14,455,{"fel":true,"meme":true,"fraction":0.99999999,"kind":"positive","branches":2,"evo_support":true}
+nsp14,502,{"fel":true,"meme":true,"fraction":0.9697977528507242,"kind":"positive","branches":1,"hla":{"YLDAYNMMI":{"8":36697},"MMISAGFSL":{"2":36691},"MISAGFSLW":{"1":36692}},"evo_support":true}
+nsp15,12,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp15,73,{"fel":true,"meme":false,"fraction":0.2383447168505619,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp15,289,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,29,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+spike,32,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,82,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,99,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,130,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,257,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+spike,267,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,294,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,296,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,444,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,541,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,575,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,598,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,603,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+spike,620,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,665,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,669,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,810,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,845,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+spike,932,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,934,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,935,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,937,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1001,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1030,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1036,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1060,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1077,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1148,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+spike,1245,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":false}
+spike,1273,{"fel":true,"meme":false,"fraction":0.230478810695356,"kind":"negative","branches":0,"evo_support":false}
+geneM,9,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneM,71,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FVLAAVYRI":{"6":53320},"FVLAAIYRI":{"6":19}},"evo_support":true}
+geneM,143,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"SELVIGAVI":{"7":53406},"LVIGAVILR":{"5":53384}},"evo_support":true}
+geneM,172,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LPKEITVAT":{"8":53403},"ATSRTLSYY":{"1":52563},"TSRTLSYYK":{"0":52560}},"evo_support":true}
+geneN,3,{"fel":true,"meme":true,"fraction":0.001874664022385342,"kind":"positive","branches":1,"hla":{"MSDNGPQNQ":{"2":52272}},"evo_support":true}
+geneN,20,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+geneN,53,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LPNNTASWF":{"8":52401},"NTASWFTAL":{"5":52369},"FTALTQHGK":{"0":52360}},"evo_support":true}
+geneN,108,{"fel":true,"meme":false,"fraction":0.2255747095395263,"kind":"negative","branches":0,"hla":{"KMKDLSPRW":{"8":51410},"KDLSPRWYF":{"6":51420},"LSPRWYFYY":{"4":52404},"SPRWYFYYL":{"3":52401}}}
+geneN,119,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"trend":true,"evo_support":true}
+geneN,159,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LQLPQGTTL":{"0":52332}},"evo_support":true}
+geneN,163,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LQLPQGTTL":{"4":52332}},"evo_support":true}
+geneN,164,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LQLPQGTTL":{"5":52332}},"evo_support":true}
+geneN,173,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"TTLPKGFYA":{"8":52314}},"evo_support":true}
+geneN,205,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"trend":true,"evo_support":true}
+geneN,234,{"fel":true,"meme":false,"fraction":0.2499934925158586,"kind":"negative","branches":0,"betas":"Higher dN/dS in the closely related bat/pangolin clade","evo_support":true}
+geneN,238,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+geneN,247,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":0,"evo_support":false}
+geneN,257,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KSAAEASKK":{"8":52270},"ASKKPRQKR":{"3":52347},"KPRQKRTAT":{"0":52386}},"evo_support":true}
+geneN,274,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KAYNVTQAF":{"8":52354},"YNVTQAFGR":{"6":52344},"NVTQAFGRR":{"5":52343}},"evo_support":true}
+geneN,307,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KHWPQIAQF":{"8":52349},"WPQIAQFAP":{"6":52371},"AQFAPSASA":{"2":52357},"QFAPSASAF":{"1":52375},"FAPSASAFF":{"0":52375}},"evo_support":true}
+geneN,313,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"AQFAPSASA":{"8":52357},"QFAPSASAF":{"7":52375},"FAPSASAFF":{"6":52375},"ASAFFGMSR":{"2":52383}},"evo_support":true}
+geneN,318,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ASAFFGMSR":{"7":52383},"GMSRIGMEV":{"2":52363}},"evo_support":true}
+geneN,323,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"GMSRIGMEV":{"7":52363},"MEVTPSGTW":{"1":52284}},"evo_support":true}
+geneN,337,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+geneN,346,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KLDDKDPNF":{"8":52336},"KLDDKVPNF":{"8":1},"KLDDKDSNF":{"8":22}},"evo_support":true}
+geneN,363,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"KTFPPTEPK":{"2":52232}},"evo_support":true}
+geneN,377,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":3,"evo_support":true}
+orf3a,19,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"GEIKDATPS":{"1":52263}},"evo_support":true}
+orf3a,25,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":0,"hla":{"GEIKDATPS":{"7":52263},"IKDATPSDF":{"5":52232},"DATPSDFVR":{"3":52247}}}
+orf3a,56,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"AVFQSASKI":{"2":40156}},"evo_support":true}
+orf3a,148,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade"}
+orf3a,203,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LHSYFTSDY":{"0":52437}},"evo_support":true}
+orf3a,207,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"LHSYFTSDY":{"4":52437},"HSYFTSDYY":{"3":52438},"FTSDYYQLY":{"0":52417}},"evo_support":true}
+orf3a,223,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"hla":{"TQLSTDTGV":{"6":52342}}}
+orf3a,232,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VEHVTFFIY":{"7":52446},"HVTFFIYNK":{"5":52454}},"evo_support":true}
+orf3a,234,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"HVTFFIYNK":{"7":52454}},"evo_support":true}
+orf3a,246,{"fel":true,"meme":false,"fraction":0.06867124551242221,"kind":"negative","branches":0,"hla":{"EEHVQIHTI":{"5":52463}},"evo_support":true}
+orf3a,258,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VVNPVMEPI":{"3":52406}}}
+orf6,1,{"fel":true,"meme":false,"fraction":0.2563355851527074,"kind":"negative","branches":0,"hla":{"MFHLVDFQV":{"0":54052}}}
+orf6,12,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FQVTIAEIL":{"5":54065},"VTIAEILLI":{"3":54077},"TIAEILLII":{"2":54072},"IAEILLIIM":{"1":54077}}}
+orf6,48,{"fel":false,"meme":true,"fraction":0.02935329448800106,"branches":1,"hla":{"LTENKYSQL":{"4":54105}},"evo_support":true}
+orf6,58,{"fel":true,"meme":false,"fraction":0.244817402130806,"kind":"negative","branches":0,"hla":{"SQLDEEQPM":{"8":54016}}}
+orf7a,15,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ITLATCELY":{"5":46321},"LATCELYHY":{"3":46323}},"evo_support":true}
+orf7a,21,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"QECVRGTTV":{"0":46362}},"evo_support":true}
+orf7a,37,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+orf7a,44,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"GTYEGNSPF":{"6":46332}}}
+orf7a,48,{"fel":false,"meme":true,"fraction":0.04983888415659932,"branches":1,"hla":{"IELSLIDFY":{"1":3},"ELSLIDFYL":{"0":2}}}
+orf7a,58,{"fel":false,"meme":true,"fraction":0.0313213638603671,"branches":1,"hla":{"ILFLALITL":{"7":1},"ITLATCELY":{"1":1},"FLGIITTVA":{"3":1},"GIITTVAAF":{"1":1},"SLIDFYLCF":{"7":4},"LIDFYLCFL":{"6":1},"IDFYLCFLA":{"5":1},"FYLCFLAFL":{"3":1},"YLCFLAFLL":{"2":1},"LCFLAFLLF":{"1":1}},"evo_support":true}
+orf7a,60,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"ITLATCELY":{"3":1},"LATCELYHY":{"1":1},"FLGIITTVA":{"5":1},"GIITTVAAF":{"3":1}},"evo_support":true}
+orf7a,64,{"fel":true,"meme":false,"fraction":0.06139673128405476,"kind":"negative","branches":0,"hla":{"FAFACPDGV":{"1":46343},"ITLATCELY":{"7":1},"LATCELYHY":{"5":1},"GIITTVAAF":{"7":1},"IDFYLCFLA":{"8":1},"FYLCFLAFL":{"6":1},"YLCFLAFLL":{"5":1},"LCFLAFLLF":{"4":1},"FLAFLLFLV":{"2":1},"LAFLLFLVL":{"1":1}},"evo_support":true}
+orf7a,70,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FAFACPDGV":{"7":46343},"CPDGVKHVY":{"3":46346},"GVKHVYQLR":{"0":46342},"QECSLQSCT":{"3":1}},"evo_support":true}
+orf7a,72,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"CPDGVKHVY":{"5":46346},"GVKHVYQLR":{"2":46342},"QECSLQSCT":{"5":1},"QSCTQHQPY":{"0":1}},"evo_support":true}
+orf7a,74,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"CPDGVKHVY":{"7":46345},"GVKHVYQLR":{"4":46342},"QECSLQSCT":{"7":1},"QSCTQHQPY":{"2":1}},"evo_support":true}
+orf7a,107,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"FLIVAAIVF":{"6":46288}},"evo_support":true}
+orf7a,110,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"VFITLCFTL":{"2":46342},"FITLCFTLK":{"1":46359},"ITLCFTLKR":{"0":46361},"MLIIFWFSL":{"2":2},"IIFWFSLEL":{"0":2}},"evo_support":true}
+orf8,118,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":false}
+nsp12,91,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,185,{"fel":true,"meme":true,"fraction":0.5,"kind":"positive","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,229,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":2,"evo_support":true}
+nsp12,231,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,249,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Lower dN/dS in the closely related bat/pangolin clade","evo_support":true}
+nsp12,418,{"fel":true,"meme":false,"fraction":0.9707269949140349,"kind":"positive","branches":1,"evo_support":false}
+nsp12,428,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,464,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true,"variants":2}
+nsp12,472,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"hla":{"RQLLFVVEV":{"5":50230}},"evo_support":true}
+nsp12,542,{"fel":true,"meme":false,"fraction":0.2458894479832515,"kind":"negative","branches":0,"hla":{"NVIPTITQM":{"8":50231},"IPTITQMNL":{"6":50231},"TQMNLKYAI":{"2":50230}}}
+nsp12,679,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp12,927,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"betas":"Negatively selected in the closely related bat/pangolin clade","evo_support":true}
+nsp2,452,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,76,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":1,"evo_support":true}
+nsp3,77,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,249,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0}
+nsp3,414,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,496,{"fel":true,"meme":false,"fraction":0.04768124884565295,"kind":"negative","branches":0,"evo_support":true}
+nsp3,527,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,1098,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,1248,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,1249,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,1348,{"fel":true,"meme":false,"fraction":0.5,"kind":"positive","branches":1,"evo_support":true}
+nsp3,1415,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,1428,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,1857,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp3,1858,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp6,211,{"fel":true,"meme":false,"fraction":0.2509608252707144,"kind":"negative","branches":0,"evo_support":true}
+nsp13,13,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp13,24,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp13,105,{"fel":true,"meme":true,"fraction":0.9697977528507242,"kind":"positive","branches":1,"evo_support":true}
+nsp13,536,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp14,420,{"fel":false,"meme":true,"fraction":0.01149677956628914,"branches":0,"evo_support":true}
+spike,70,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+spike,153,{"fel":true,"meme":false,"fraction":0.2517054915427029,"kind":"negative","branches":0,"evo_support":true}
+spike,-7187,{"fel":false,"meme":false,"fraction":0.99999999,"branches":0,"MAF":0.4}
+spike,731,{"fel":true,"meme":false,"fraction":0.2500499574837163,"kind":"negative","branches":0}
+spike,1035,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+spike,1044,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+spike,1158,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+geneE,29,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0}
+geneE,38,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0}
+geneE,44,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0}
+geneE,-8748,{"fel":false,"meme":false,"fraction":0.99,"branches":0,"MAF":0.5}
+geneE,-8748,{"fel":false,"meme":false,"fraction":0.99,"branches":0,"MAF":0.5}
+geneE,64,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0}
+geneM,185,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+geneM,187,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+geneM,205,{"fel":false,"meme":true,"fraction":0.008776601147456597,"branches":1,"evo_support":true}
+geneN,22,{"fel":true,"meme":true,"fraction":0.99,"kind":"positive","branches":0,"evo_support":true}
+geneN,157,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+geneN,208,{"fel":true,"meme":true,"fraction":0.4471915677437431,"kind":"positive","branches":0,"evo_support":true}
+geneN,210,{"fel":true,"meme":false,"fraction":0.25,"kind":"negative","branches":0,"evo_support":true}
+geneN,384,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+orf8,3,{"fel":true,"meme":false,"fraction":0.01043878812904919,"kind":"negative","branches":0,"evo_support":true}
+nsp12,45,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp12,109,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":0,"evo_support":true}
+nsp12,174,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp12,284,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"evo_support":true}
+nsp12,295,{"fel":true,"meme":false,"fraction":0.99,"kind":"positive","branches":1,"evo_support":true}
+nsp12,301,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
+nsp12,824,{"fel":true,"meme":true,"fraction":0.978203972092608,"kind":"positive","branches":1,"evo_support":true}
+nsp12,850,{"fel":true,"meme":false,"fraction":0,"kind":"negative","branches":0,"evo_support":true}
