@@ -42,8 +42,8 @@ clv14	20652	20660	clv	predicted-cleavage-site-of-nsp15
 5'UTR	1	265	reg	.
 3'UTR	29675	29903	reg	.
 sl1	13476	13503	reg	Coronavirus frameshifting stimulation element stem-loop 1
-sl2     13488	13542	reg	Coronavirus frameshifting stimulation element stem-loop 2
-sl3     29609	29644	reg	Coronavirus 3' UTR pseudoknot stem-loop 1
+sl2 13488	13542	reg	Coronavirus frameshifting stimulation element stem-loop 2
+sl3 29609	29644	reg	Coronavirus 3' UTR pseudoknot stem-loop 1
 sl4	29629	29657	reg	Coronavirus 3' UTR pseudoknot stem-loop 1
 sl5	29728	29768	reg	s2m
 TRS-L	70	75	reg	leader
