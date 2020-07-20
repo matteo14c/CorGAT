@@ -59,9 +59,9 @@ The *annotate.pl* utility is used to perform functional annotation of SARS-CoV-2
 Similar to *consolidate.pl* the output is printed directly to your screen (standard output). Again, to save everything into a file you need to redirect (*>* symbol). My personal suggestion is to add a *.csv* or a *.tsv* extension to the name of the output file. So that it can be opened directly by a spreadsheet editor software, like for example MS excel or OpenOffice Calc. If/when the docker or Galaxy version of this software are used, the output can be visualized directly in your browser.
 
 The output consists in a simple table, delineated by <tab> (tabulations) and formatted as follows:
-Genomic position | Ref allele| Alt allele | Allele frequency| Funct Elem annot | Epitopes annot | Selection annot | MFE annot | 
+Genomic position | Ref allele| Alt allele | Funct Elem annot| Allele Frequency | Epitopes annot | Selection annot | MFE annot | 
 ---------------- |-----------|------------|-----------------|------------------|----------------|-----------------|-----------|
-376|G|T|nsp1:c.111G>T,p.E37D,missense;orf1ab:c.111G>T,p.E37D,missense;||FGDSVEEVL,1,HLA-C\*08:01|fel:true;meme:true;kind:positive|NA
+376|G|T|nsp1:c.111G>T,p.E37D,missense;orf1ab:c.111G>T,p.E37D,missense;|0.166|FGDSVEEVL,1,HLA-C\*08:01|fel:true;meme:true;kind:positive|NA
 29742|G|T|3'UTR:nc.G68T,NA,NA,NA;sl5:nc.G15T,NA,NA,NA;|0.735|NA|NA|mfe:-5.6;-4.76;-10.93;
 
 Annotation of functional genomic elements, consists of 4 fields, separated by commas (**,**):
