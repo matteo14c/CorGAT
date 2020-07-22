@@ -2,8 +2,7 @@
 Collection of Perl script for the alignment of SARS-CoV-2 genomes and the functional annotation of genetic variants
 ## Prerequisites and usage
 
-This repository contains a collection of simple Perl scripts that can be used to align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to **annotate** genetic variants according to the method described in *Chiara et al 2020*  to be published (hopefully) 
-The manuscript is currently submitted and undergoing peer review.
+This repository contains a collection of simple Perl scripts that can be used to align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to **annotate** genetic variants according to the method described in *Chiara et al 2020*  to be published soon (hopefully). The manuscript is currently submitted and undergoing peer review.
 
 This software package is composed of 3 very simple scripts and a collection of files with functional annotation data. The only requirement is that you have an up to date installation (see below) of the Mummer package in your system and a copy of the reference genomic sequence, in fasta format. All the files (scripts, genomic sequences and accessory files) should be placed in the same folder. If you do not feel comfortable in installing/running these utilities from the command line, you can find a Galaxy running the software at http://90.147.102.237/galaxy , or download a dockerized version of the Galaxy, with all the tools at XXX.
 
@@ -82,7 +81,7 @@ The MFE annot column reports **predicted changes** in MFE (minimum free energy) 
 
 Please notice, that to work properly *annotate.pl* needs to have access (read) several annotation files which provide the different types of functional annotations. If these files are not available, the program will exit with an error, complaining that one or more of the files are missing.
 These files that are **strictly required** and can be downloaded from the current github repository. The repository itself is updated on a 2 week basis. So it is **highly advised** that the latest version of the files should be downloaded **before** you perform functional annotation.
-The Galaxy and docker version of this software are updated automatically. All the files need to be (and normally are) in the **same folder** from which annotate.pl is executed.
+In the Galaxy and docker version, these files are updated automatically. All the files need to be (and normally are) in the **same folder** from which annotate.pl is executed.
 
 The annotation files, all in simple text format include:
 1. *genetic_code* -> 3 column file with the standard genetic code
@@ -98,6 +97,7 @@ Please see below for a brief guide that will help you to define additional funct
 ## Functional annotation: adding functional elements!
 
 Functional genomic elements in the genome of SARS-CoV-2 are specified by a four columns tabular format file called annot_table.pl. This file can be used to specify additional functional elements and/or use a personalized annotation. The file has a very simple format: for every element, the first two columns specify the start and end coordinate on the genome. The third column defines the functional class. At the moment 2 different classes are supported: protein coding sequence (CDS) and non-coding (nc). The fourth column is optional and contains an additional comment/name for the functional elements.
+Currently the Galaxy/dockerized versions do not allow the specification of additional annotations.
 
 ## For impatient people
 
