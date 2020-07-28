@@ -45,3 +45,37 @@ For example in *FGDSVEEVL,1,HLA-C\*08:01*, **FGDSVEEVL** is the sequence of the 
 Annotation of sites under selection is very simple: **fel:** is used to indicate if the site is under selection according to fel. Possible values are *true* or *false*. **meme** is the equivalent, but for the meme method. The **kind:** field indicates the type of selection: *positive* or *negative*.
 
 The MFE annot column reports **predicted changes** in MFE (minimum free energy) for variants associated with secondary structure elements. Please notice that this annotation does not report the predicted MFE, but the **difference** between the MFE of the element based on the reference genome sequence, with the MFE calculated on the alternative sequence. Negative values indicate a descrease in MFE (a more stable structure). Positive values are suggestive of a less stable structure (increase in MFE). Three values are reported, representing respectively MFE of: *optimal secondary structure*, *the thermodynamic ensemble* and *the centroid secondary structure*. Obviusly there is no absolute cut-off for interpreting these results, however high shifts (>1 or <-1) in MFE might be suggestive of functional implications.
+
+Functional annotation: Important!
+---------------------------------
+
+Please notice, that to work properly ``annotate.pl`` needs to have access (read) several annotation files which provide the different types of functional annotations. If these files are not available, the program will exit with an error, complaining that one or more of the files are missing.
+
+These files that are **strictly required** and can be downloaded from the current github repository. The repository itself is updated on a 2 week basis. So it is **highly advised** that the latest version of the files should be downloaded **before** you perform functional annotation.
+
+.. warning::
+
+   In the Galaxy and docker version, these files are updated automatically. All the files need to be (and normally are) in the **same folder** from which ``annotate.pl`` is executed.
+
+The annotation files, all in simple text format include:
+#. *genetic_code* -> 3 column file with the standard genetic code
+
+#. *GCA_009858895.3_ASM985889v3_genomic.fna* -> the reference SARS-CoV-2 genome assembly sequence
+
+#. *annot_table.pl* -> a 4 column tabular file with genomic coordinates of functional genomic elements
+
+#. *af_data_new.csv* -> tabular file with allele frequency data
+
+#. *MFE_annot.csv* -> tabular file with Mininum Free Energy predictions for all the possible Single Nucleotide substitutions in secondary structure elements
+
+#. *epitopes_annot.csv* -> tabular file with annotation of predicted epitopes
+
+#. *hyphy.csv* -> tabular file with aa residues under selection according to meme/fel
+
+Please see below for a brief guide that will help you to define additional functional elements in ``annot_table.pl``.
+
+Functional annotation: adding functional elements!
+--------------------------------------------------
+
+Functional genomic elements in the genome of SARS-CoV-2 are specified by a four columns tabular format file called ``annot_table.pl``. This file can be used to specify additional functional elements and/or use a personalized annotation. The file has a very simple format: for every element, the first two columns specify the start and end coordinate on the genome. The third column defines the functional class. At the moment 2 different classes are supported: protein coding sequence (CDS) and non-coding (nc). The fourth column is optional and contains an additional comment/name for the functional elements.
+Currently the Galaxy/dockerized versions do not allow the specification of additional annotations.

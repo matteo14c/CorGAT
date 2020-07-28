@@ -28,8 +28,6 @@ If you find any issue with the software, please contact `me <mailto:matteo.chiar
    align_to_refdata.rst
    consolidate_variants.rst
    func_annotation.rst
-   func_annotation_important.rst
-   func_annotation_adds.rst
    impatient_people.rst
 
 .. toctree::
