@@ -28,14 +28,14 @@ If you find any issue with the software, please contact `me <mailto:matteo.chiar
    align_to_refdata.rst
    consolidate_variants.rst
    func_annotation.rst
-   impatient_people.rst
+   quickstart.rst
 
 .. toctree::
    :maxdepth: 2
    :caption: Galaxy version
 
-   import_data.rst
-   analyse_data.rst
+   galaxy_import_data.rst
+   galaxy_analyse_data.rst
 
 Indices and tables
 ==================
