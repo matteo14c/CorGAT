@@ -10,6 +10,10 @@ Welcome to CorGAT's documentation!
 
 This software package is composed of 3 very simple scripts and a collection of files with functional annotation data. If you do not feel comfortable in installing/running these utilities from the command line, you can find a Galaxy running the software at http://corgat.ba.infn.it/galaxy , or download a dockerized version of the Galaxy, with all the tools `here <https://hub.docker.com/r/laniakeacloud/galaxy_corgat>`_.
 
+.. figure:: _static/img/galaxy_corgat.png
+   :scale: 50%
+   :align: center
+
 If you find any of this software useful for your work, please cite:
 
 **Chiara M, Horner DS, Gissi C, Pesole G. Comparative genomics provides an operational classification system and reveals early emergence and biased spatio-temporal distribution of SARS-CoV-2 bioRxiv 2020.06.26.172924; doi: https://doi.org/10.1101/2020.06.26.172924**
