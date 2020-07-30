@@ -4,7 +4,7 @@ Collection of Perl script for the alignment of SARS-CoV-2 genomes and the functi
 
 This repository contains a collection of simple Perl scripts that can be used to align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to **annotate** genetic variants according to the method described in *Chiara et al 2020*  to be published soon (hopefully). The manuscript is currently submitted and undergoing peer review.
 
-This software package is composed of 3 very simple scripts and a collection of files with functional annotation data. The only requirement is that you have an up to date installation (see below) of the Mummer package in your system and a copy of the reference genomic sequence, in fasta format. All the files (scripts, genomic sequences and accessory files) should be placed in the same folder. If you do not feel comfortable in installing/running these utilities from the command line, you can find a Galaxy running the software at http://90.147.102.237/galaxy , or download a dockerized version of the Galaxy, with all the tools at XXX.
+This software package is composed of 3 very simple scripts and a collection of files with functional annotation data. The only requirement is that you have an up to date installation (see below) of the Mummer package in your system and a copy of the reference genomic sequence, in fasta format. All the files (scripts, genomic sequences and accessory files) should be placed in the same folder. If you do not feel comfortable in installing/running these utilities from the command line, you can find a Galaxy running the software at http://corgat.cloud.ba.infn.it/galaxy , or download a dockerized version of the Galaxy, with all the tools at https://hub.docker.com/r/pmandreoli/galaxy_corgat.
 
 Please follow this link https://sourceforge.net/projects/mummer/files/ for detailed instruction on how to install and run Mummer.
 
@@ -23,7 +23,7 @@ Please notice that however the *align.pl* utility is going to download the file 
 Should you find any of this software useful for your work, please cite:
 >**Chiara M, Horner DS, Gissi C, Pesole G. Comparative genomics provides an operational classification system and reveals early emergence and biased spatio-temporal distribution of SARS-CoV-2 bioRxiv 2020.06.26.172924; doi: https://doi.org/10.1101/2020.06.26.172924**
 and
->**Other paper**
+>**Chiara M, Zambelli F, Tangaro MA, Mandreoli P, Horner DS, Pesole G. CorGAT: a tool for the functional annotation of SARS-CoV-2 genomes. Under peer review**
 
 Should you find any issue with the software, please contact me at matteo.chiara@unimi.it, or here on github
 
@@ -71,7 +71,7 @@ Annotation of functional genomic elements, consists of 4 fields, separated by co
 
 When a variant is overlapped by more than one element, multiple annotations are reported, separated by semicolumns (**;**)
 
-Annotation of epitopes is according to XX et al. The sequence of the epitope/epitopes is reported followed by the number and by the names of the HLAs that are predicted to recognize the epitope.  Multiple annotations are separated by semicolumns (**;**).  For example in *FGDSVEEVL,1,HLA-C\*08:01*, **FGDSVEEVL** is the sequence of the predicted epitope/epitopes, **1** and **HLA-C\*08:01** indicate that the sequence is recognized by just 1 HLA, that is **HLA-C\*08:01**.
+Annotation of epitopes is according to Kiyotani et al 2020. The sequence of the epitope/epitopes is reported followed by the number and by the names of the HLAs that are predicted to recognize the epitope.  Multiple annotations are separated by semicolumns (**;**).  For example in *FGDSVEEVL,1,HLA-C\*08:01*, **FGDSVEEVL** is the sequence of the predicted epitope/epitopes, **1** and **HLA-C\*08:01** indicate that the sequence is recognized by just 1 HLA, that is **HLA-C\*08:01**.
 
 Annotation of sites under selection is very simple: **fel:** is used to indicate if the site is under selection according to fel. Possible values are *true* or *false*. **meme** is the equivalent, but for the meme method. The **kind:** field indicates the type of selection: *positive* or *negative*.
 
