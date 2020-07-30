@@ -22,7 +22,9 @@ Please notice that however the *align.pl* utility is going to download the file 
 
 Should you find any of this software useful for your work, please cite:
 >**Chiara M, Horner DS, Gissi C, Pesole G. Comparative genomics provides an operational classification system and reveals early emergence and biased spatio-temporal distribution of SARS-CoV-2 bioRxiv 2020.06.26.172924; doi: https://doi.org/10.1101/2020.06.26.172924**
+
 and
+
 >**Chiara M, Zambelli F, Tangaro MA, Mandreoli P, Horner DS, Pesole G. CorGAT: a tool for the functional annotation of SARS-CoV-2 genomes. Under peer review**
 
 Should you find any issue with the software, please contact me at matteo.chiara@unimi.it, or here on github
