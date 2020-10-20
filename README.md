@@ -34,45 +34,51 @@ Should you find any issue with the software, please contact me at matteo.chiara@
 The helper script *align.pl* can be used to align a collection of genomic sequences to the reference assembly of SARS-CoV-2 and obtain a list of polymorphic positions. The script automates all the required steps. align.pl currently allows 3 different distinct methods to provide input files/sequences:
 * Through a multifasta file: **option --multi**
 * Through a file containing a list of file names: **option --filelists**
-* By specifying a <suffix> that is common to all the files that should be analyses: **option --suffix**
+* By specifying a "suffix" that is common to all the names of the files that should be analyses: **option --suffix**
 
 All input files **MUST** be in the **same folder** from which the program is executed. A temporary directory will be created to store all the intermediate files and the alingment results for every file. The name of this temporary directory can be specified using the **--tmpdir option**. Please notice that this temporary directory, normally, will be deleted after the execution of align.pl. The **--clean option**, can be used to alter this behavior. If set to **F=FALSE** the temporary directory will not be deleted.
 
-Finally the name of the output file can be specified by using the **--out option**. This defaults to <<ALIGN_out.tsv>>. 
+Finally the name of the output file can be specified by using the **--out option**. This defaults to **<<ALIGN_out.tsv>>**. 
 
 Please see above for how to obtain the reference genome sequence file. This file also needs to be in the same folder from which the program is executed (and yes **the same** where you have all the files). If the reference genome file is missing, *aling.pl* will try to download it from Genbank. Although this is supposed to work only for unix and unix alike systems (the *wget* command is required)
 
 Once you have everything in place, you can simply run:
-* `perl align.pl --multi <multifasta>` to align all the genomes contained in a multifasta file or
-* `perl align.pl --suffix <fasta>` to align all the .fasta files contained in the current folder or
-* `perl align.pl --filelist <list>` to align all the files specified in a list of file names.One file per line. Again, all files need to be in the current folder
+>* `perl align.pl --multi <multifasta>` to align all the genomes contained in a multifasta file or
+>* `perl align.pl --suffix <fasta>` to align all the .fasta files contained in the current folder or
+>* `perl align.pl --filelist <list>` to align all the files specified in a list of file names.One file per line. Again, all files need to be in the current folder
 
-For every genome fasta file you will obtain a file with the extension .snps which will contain all the polymorphic positions identified by nucmer. These files will be stored in the temporary directory, as specified by the --tmpdir option (default align.tmp). If the --clean option is set to T (TRUE) however, this directory will be removed after the execution of the program.
+For every genome fasta file you will obtain a file with the extension .snps which will contain all the polymorphic positions identified by nucmer. These files will be stored in the temporary directory, as specified by the --tmpdir option (default align.tmp). If the --clean option is set to **T (TRUE) however, this directory will be removed** after the execution of the program.
 
-The final output consists in a simple tabular file (default name ALIGN_out.tsv) that lists genetic variants on the rows, and reports their presence (1) or absence (0) in the different genomes included in your analysis in the columns. This output file can be used directly 
+The final output consists in a simple tabular file (default name **ALIGN_out.tsv**) that lists genetic variants on the rows, and reports their presence (1) or absence (0) in the different genomes included in your analysis in the columns. 
 
-The apollo.fa file in the current repository provides an example of a valid multifasta. Similarly, the file called lfile is a valid example of a list file. Both gn.fa and gn1.fa are included in the CorGAT Github repository. The repository also contains a couple of files with the extension .fasta. These can be used to test the "--suffix" input mode. To check that everything works, just run:
-`perl align.pl`
+The apollo.fa file in the current repository provides an example of a valid multifasta. Similarly, the file called lfile is a valid example of a list file. Both gn.fa and gn1.fa, the file included in the list, are incorporated in the CorGAT Github repository. The repository also contains a couple of files with the extension .fasta: g1.fasta and g2.fasta . These can be used to test the "--suffix" input mode. 
+To check if everything works, just run:
+>`perl align.pl`
 The help message, should be self-explanatory. You can try all the 3 different commands under the EXAMPLE section to test align.pl
   
 
 ## Functional annotation
 
 The *annotate.pl* utility is used to perform functional annotation of SARS-CoV-2 variants. The program can be executed very easily, by running:
-`perl annotate.pl --in <Output of align.pl>`
+>`perl annotate.pl --in <Output of align.pl>`
 
-This script is even more simple. Only 3 parameters are accepted in input: **--in** to specify the input file; **--out** to set the name of the output file, and **--conf** to provide a configuration file. The configuration file, is nothing but a simple table that contains the name of the files that should be used to provide different types of functional annotations. A valid example of a configuration file is provided by **corgat.conf**  ad included in the current repo.
+This script is very simple to use. Only 3 parameters are accepted in input: 
+* **--in** to specify the input file;
+* **--out** to set the name of the output file; 
+* and **--conf** to provide a configuration file. 
+
+The configuration file, is nothing but a simple table that contains the name of the files that should be used to provide different types of functional annotations. A valid example of a configuration file is provided by **corgat.conf**  ad included in the current repo.(See below)
 
 **Configuration file**
-The configuration file, is nothing but a simple table, which provides the name of several files that are used for the functional annotations of the genome. Each of this file is associated with a keyword (first column), to which the name of the file that should be used follows. In particular:
-*genetic -> specifies the name of the file with the genetic code
-*genome  -> the name of the file with the reference genome sequence
-*annot   -> a table, with the coordinates of functional genomic elements (see below)
-*hyphy   -> the file used to provide annotation of variants under selection according to hyphy
-*AF      -> the file with allele frequency data
-*EPI     -> the files with annotations of predicted epitopes
+The configuration file, is nothing but a simple table, which provides the name of several files that are used for the functional annotations of the genome. Each of this file is associated with a keyword (first column), to which the name of the file that should be used follows (second column). In particular:
+* genetic -> specifies the name of the file with the genetic code
+* genome  -> the name of the file with the reference genome sequence
+* annot   -> a table, with the coordinates of functional genomic elements (see below)
+* hyphy   -> the file used to provide annotation of variants under selection according to hyphy
+* AF      -> the file with allele frequency data
+* EPI     -> the files with annotations of predicted epitopes
 
-Since the number of publicly available genome sequences is constantly increased over times, some of these files are updated on a monthly basis. In particular the **hyphy** and **AF** files. The corgat.conf file as provided in this repo, is set to use the most up to date version of these files, each denoted by the **current.csv** suffix. Older versions of each file are stored in the **hyphy** and **AF** folders respectively. Should you need to use an older version of these files for any specific reason, you can simply modify your copy of corgat.conf accordingly.  
+Since the number of publicly available genome sequences is constantly increased over times, some of these files are updated on a monthly basis. In particular the **hyphy** and **AF** files. The corgat.conf file as provided in this repo, is set to use the most up to date version of these files, each denoted by the **current.csv** suffix. Older versions of each file are stored in the **hyphy** and **AF** folders respectively. Should you need to use an older version of these files for any specific reason, you can simply modify your copy of corgat.conf accordingly. Average users however, should not need to modify this file. 
 
 **Output**
 The output consists in a simple table, delineated by <tab> (tabulations) and formatted as follows:
