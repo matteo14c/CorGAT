@@ -63,11 +63,6 @@ The help message, should be self-explanatory. You can try all the 3 different co
 The *annotate.pl* utility is used to perform functional annotation of SARS-CoV-2 variants. The program can be executed very easily, by running:
 >`perl annotate.pl --in inputFile`
 
-This script is very simple to use. Only 3 parameters are accepted in input: 
-* **--in** to specify the input file;
-* **--out** to set the name of the output file; 
-* and **--conf** to provide a configuration file. 
-
 The configuration file, is nothing but a simple table that contains the name of the files that should be used to provide different types of functional annotations. A valid example of a configuration file is provided by **corgat.conf**  ad included in the current repo.(See below)
 
 **Configuration file**
