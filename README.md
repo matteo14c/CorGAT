@@ -32,13 +32,13 @@ Should you find any issue with the software, please contact me at matteo.chiara@
 ## Align to the reference genome
 
 The helper script *align.pl* can be used to align a collection of genomic sequences to the reference assembly of SARS-CoV-2 and obtain a list of polymorphic positions. The script automates all the required steps. align.pl currently allows 3 different distinct methods to provide input files/sequences:
-* Through a multifasta file: **option --multi**
-* Through a file containing a list of file names: **option --filelists**
-* By specifying a "suffix" that is common to all the names of the files that should be analyses: **option --suffix**
+* Through a multifasta file: **option --multi**;
+* Through a file containing a list of file names: **option --filelists**;
+* By specifying a "suffix" that is common to all the names of the files that should be analyses: **option --suffix**;
 
 All input files **MUST** be in the **same folder** from which the program is executed. A temporary directory will be created to store all the intermediate files and the alingment results for every file. The name of this temporary directory can be specified using the **--tmpdir option**. Please notice that this temporary directory, normally, will be deleted after the execution of align.pl. The **--clean option**, can be used to alter this behavior. If set to **F=FALSE** the temporary directory will not be deleted.
 
-Finally the name of the output file can be specified by using the **--out option**. This defaults to **<<ALIGN_out.tsv>>**. 
+Finally the name of the output file can be specified by using the **--out option**. This defaults to **ALIGN_out.tsv**. 
 
 Please see above for how to obtain the reference genome sequence file. This file also needs to be in the same folder from which the program is executed (and yes **the same** where you have all the files). If the reference genome file is missing, *aling.pl* will try to download it from Genbank. Although this is supposed to work only for unix and unix alike systems (the *wget* command is required)
 
@@ -62,6 +62,11 @@ The help message, should be self-explanatory. You can try all the 3 different co
 
 The *annotate.pl* utility is used to perform functional annotation of SARS-CoV-2 variants. The program can be executed very easily, by running:
 >`perl annotate.pl --in inputFile`
+
+This script is very simple to use. Only 3 parameters are accepted in input: 
+* **--in** to specify the input file;
+* **--out** to set the name of the output file; 
+* and **--conf** to provide a configuration file. 
 
 The configuration file, is nothing but a simple table that contains the name of the files that should be used to provide different types of functional annotations. A valid example of a configuration file is provided by **corgat.conf**  ad included in the current repo.(See below)
 
