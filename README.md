@@ -32,9 +32,9 @@ Should you find any issue with the software, please contact me at matteo.chiara@
 ## Align to the reference genome
 
 The helper script *align.pl* can be used to align a collection of genomic sequences to the reference assembly of SARS-CoV-2 and obtain a list of polymorphic positions. The script automates all the required steps. align.pl currently allows 3 different distinct methods to provide input files/sequences:
-*Through a multifasta file: **option --multi**
-*Through a file containing a list of file names: **option --filelists**
-*By specifying a <suffix> that is common to all the files that should be analyses: **option --suffix**
+* Through a multifasta file: **option --multi**
+* Through a file containing a list of file names: **option --filelists**
+* By specifying a <suffix> that is common to all the files that should be analyses: **option --suffix**
 
 All input files **MUST** be in the **same folder** from which the program is executed. A temporary directory will be created to store all the intermediate files and the alingment results for every file. The name of this temporary directory can be specified using the **--tmpdir option**. Please notice that this temporary directory, normally, will be deleted after the execution of align.pl. The **--clean option**, can be used to alter this behavior. If set to **F=FALSE** the temporary directory will not be deleted.
 
@@ -43,9 +43,9 @@ Finally the name of the output file can be specified by using the **--out option
 Please see above for how to obtain the reference genome sequence file. This file also needs to be in the same folder from which the program is executed (and yes **the same** where you have all the files). If the reference genome file is missing, *aling.pl* will try to download it from Genbank. Although this is supposed to work only for unix and unix alike systems (the *wget* command is required)
 
 Once you have everything in place, you can simply run:
-*`perl align.pl --multi <multifasta>` to align all the genomes contained in a multifasta file or
-*`perl align.pl --suffix <fasta>` to align all the .fasta files contained in the current folder or
-*`perl align.pl --filelist <list>` to align all the files specified in a list of file names.One file per line. Again, all files need to be in the current folder
+* `perl align.pl --multi <multifasta>` to align all the genomes contained in a multifasta file or
+* `perl align.pl --suffix <fasta>` to align all the .fasta files contained in the current folder or
+* `perl align.pl --filelist <list>` to align all the files specified in a list of file names.One file per line. Again, all files need to be in the current folder
 
 For every genome fasta file you will obtain a file with the extension .snps which will contain all the polymorphic positions identified by nucmer. These files will be stored in the temporary directory, as specified by the --tmpdir option (default align.tmp). If the --clean option is set to T (TRUE) however, this directory will be removed after the execution of the program.
 
