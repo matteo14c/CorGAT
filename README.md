@@ -54,13 +54,14 @@ The final output consists in a simple tabular file (default name **ALIGN_out.tsv
 The apollo.fa file in the current repository provides an example of a valid multifasta. Similarly, the file called lfile is a valid example of a list file. Both gn.fa and gn1.fa, the file included in the list, are incorporated in the CorGAT Github repository. The repository also contains a couple of files with the extension .fasta: g1.fasta and g2.fasta . These can be used to test the "--suffix" input mode. 
 To check if everything works, just run:
 >`perl align.pl`
+
 The help message, should be self-explanatory. You can try all the 3 different commands under the EXAMPLE section to test align.pl
   
 
 ## Functional annotation
 
 The *annotate.pl* utility is used to perform functional annotation of SARS-CoV-2 variants. The program can be executed very easily, by running:
->`perl annotate.pl --in <Output of align.pl>`
+>`perl annotate.pl --in inputFile`
 
 This script is very simple to use. Only 3 parameters are accepted in input: 
 * **--in** to specify the input file;
