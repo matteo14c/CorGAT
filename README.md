@@ -80,7 +80,9 @@ The configuration file, is nothing but a simple table, which provides the name o
 
 Since the number of publicly available genome sequences is constantly increased over times, some of these files are updated on a monthly basis. In particular the **hyphy** and **AF** files. The corgat.conf file as provided in this repo, is set to use the most up to date version of these files, each denoted by the **current.csv** suffix. Older versions of each file are stored in the **hyphy** and **AF** folders respectively. Should you need to use an older version of these files for any specific reason, you can simply modify your copy of corgat.conf accordingly. Average users however, should not need to modify this file. 
 
+
 **Output**
+
 The output consists in a simple table, delineated by <tab> (tabulations) and formatted as follows:
 Genomic position | Ref allele| Alt allele | Funct Elem annot| Allele Frequency | Epitopes annot | Selection annot | MFE annot | 
 ---------------- |-----------|------------|-----------------|------------------|----------------|-----------------|-----------|
