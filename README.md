@@ -43,11 +43,9 @@ Finally the name of the output file can be specified by using the **--out option
 Please see above for how to obtain the reference genome sequence file. This file also needs to be in the same folder from which the program is executed (and yes **the same** where you have all the files). If the reference genome file is missing, *aling.pl* will try to download it from Genbank. Although this is supposed to work only for unix and unix alike systems (the *wget* command is required)
 
 Once you have everything in place, you can simply run:
-`perl align.pl --multi <multifasta>` to align all the genomes contained in a multifasta file
-or
-`perl align.pl --suffix <fasta>` to align all the .fasta files contained in the current folder
-or
-`perl align.pl --filelist <list>` to align all the files specified in a list of file names.One file per line. Again, all files need to be in the current folder
+*`perl align.pl --multi <multifasta>` to align all the genomes contained in a multifasta file or
+*`perl align.pl --suffix <fasta>` to align all the .fasta files contained in the current folder or
+*`perl align.pl --filelist <list>` to align all the files specified in a list of file names.One file per line. Again, all files need to be in the current folder
 
 For every genome fasta file you will obtain a file with the extension .snps which will contain all the polymorphic positions identified by nucmer. These files will be stored in the temporary directory, as specified by the --tmpdir option (default align.tmp). If the --clean option is set to T (TRUE) however, this directory will be removed after the execution of the program.
 
