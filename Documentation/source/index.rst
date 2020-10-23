@@ -6,9 +6,9 @@
 Welcome to CorGAT's documentation!
 ==================================
 
-`CorGAT <https://github.com/matteo14c/CorGAT>`_ is a collection of simple Perl scripts that can be used to align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to **annotate** genetic variants according to the method described in *Chiara et al 2020*  to be published soon (hopefully). The manuscript is currently submitted and undergoing peer review.
+`CorGAT <https://github.com/matteo14c/CorGAT>`_ is a collection of Perl utilities that can be used to align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to **annotate** genetic variants according to the method described in *Chiara et al 2020*  to be published soon (hopefully). The manuscript is currently submitted and undergoing peer review.
 
-This software package is composed of 3 very simple scripts and a collection of files with functional annotation data. If you do not feel comfortable in installing/running these utilities from the command line, you can find a Galaxy running the software at http://corgat.ba.infn.it/galaxy , or download a dockerized version of the Galaxy, with all the tools `here <https://hub.docker.com/r/laniakeacloud/galaxy_corgat>`_.
+This software package is composed of 2 very simple scripts and a collection of files with functional annotation data. Since the number of available SARS-CoV-2 genomic sequences is increasingly constantly, these files are regularly updated on a monthly basis. If you do not feel comfortable in installing/running CorGAT from the command line, you can find a Galaxy running the software at http://corgat.ba.infn.it/galaxy , or download a dockerized version of the Galaxy, with all the tools `here <https://hub.docker.com/r/laniakeacloud/galaxy_corgat>`_.
 
 .. figure:: _static/img/galaxy_corgat.png
    :scale: 50%
