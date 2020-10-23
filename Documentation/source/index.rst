@@ -30,7 +30,6 @@ If you find any issue with the software, please contact `me <mailto:matteo.chiar
 
    prerequisites.rst
    align_to_refdata.rst
-   consolidate_variants.rst
    func_annotation.rst
    quickstart.rst
 
