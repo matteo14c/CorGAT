@@ -3,14 +3,12 @@ Quickstart
 
 To do all of the above: 
 
-#. Put fasta files of genome sequences in one folder. 1 sequence per file. all the files must have the *.fasta* extension.
+#. Put a multi fasta file of genome sequences in one folder. 
 
 #. download this `repository <https://github.com/matteo14c/CorGAT>`_.
 
-#. run ``perl align.pl``.
+#. run ``perl align.pl --multi <your_fasta_file> --out <your_alignment_results>``.
 
-#. run ``perl consolidate.pl > consolidated_variant_calls``.
-
-#. run ``perl annotate.pl consolidated_variant_calls > funct_annot_output_file``.
+#. run ``perl annotate.pl --in  <your_alignment_results>  --out <funct_annot_output_file>``.
 
 #. open the output file, and read the annotations.
