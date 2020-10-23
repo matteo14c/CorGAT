@@ -5,19 +5,32 @@ The ``annotate.pl`` utility is used to perform functional annotation of SARS-CoV
 
 ::
 
-  perl annotate.pl consolidated_variant_calls > <funct_annot_output_file.csv>
+  perl annotate.pl --in inputFile
 
-Similar to ``consolidate.pl`` the output is printed directly to your screen (standard output).
+This script is very simple to use. Only 3 parameters are accepted in input: 
+
+  * ``--in to specify the input file;``
+  * ``--out to set the name of the output file;``
+  * ``--conf to provide a configuration file``
+
 
 .. warning::
 
-   Again, to save everything into a file you need to redirect (*>* symbol). My personal suggestion is to add a *.csv* or a *.tsv* extension to the name of the output file. So that it can be opened directly by a spreadsheet editor software, like for example MS excel or OpenOffice Calc. 
+   The configuration file, is nothing but a simple table that contains the name of the files that should be used to provide different types of functional annotations. A valid example of a configuration file is provided by *corgat.conf*  as included in the current repo.(See below). Each row of this file is associated with a keyword (first column), to which the name of the file that should be used follows (second column). In particular:
+   
+     * ``genetic -> specifies the name of the file with the genetic code``
+     * ``genome  -> the name of the file with the reference genome sequence``
+     * ``annot   -> a table, with the coordinates of functional genomic elements (see below)``
+     * ``hyphy   -> the file used to provide annotation of variants under selection according to hyphy``
+     * ``AF      -> the file with allele frequency data``
+     * ``EPI     -> the files with annotations of predicted epitopes``
 
 .. warning::
 
-   If/when the docker or Galaxy version of this software are used, the output can be visualized directly in your browser.
+Since the number of publicly available genome sequences is constantly increased over times, some of these files are updated on a monthly basis. In particular the *hyphy* and *AF* files. The corgat.conf file as provided in this repo, is configured to use the most up to date version of these files, each denoted by the *current.csv* suffix. Older versions of each file are stored in the *hyphy_data* and *AF* folders respectively. Should you need to use an older version of these files for any specific reason, you can simply modify your copy of corgat.conf accordingly. Average users however, should not need to modify this file. 
 
-The output consists in a simple table, delineated by <tab> (tabulations) and formatted as follows:
+
+The output consists in a simple table, delineated by <tab> (tabulations) and formatted as follows. If/when the docker or Galaxy version of this software are used, the output can be visualized directly in your browser:
 
 ================ ========== ========== ============================================================== ================ ======================== ================================ ======================
 Genomic position Ref allele Alt allele Funct Elem annot                                               Allele Frequency Epitopes annot           Selection annot                  MFE annot 
