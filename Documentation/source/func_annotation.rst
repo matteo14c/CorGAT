@@ -9,9 +9,11 @@ The ``annotate.pl`` utility is used to perform functional annotation of SARS-CoV
 
 This script is very simple to use. Only 3 parameters are accepted in input: 
 
-  * ``--in to specify the input file;``
-  * ``--out to set the name of the output file;``
-  * ``--conf to provide a configuration file``
+#. **--in** to specify the input file;
+
+#. **--out** to set the name of the output file;
+
+#. **--conf** to provide a configuration file;
 
 
 .. warning::
@@ -51,7 +53,7 @@ Annotation of functional genomic elements, consists of 4 fields, separated by co
 
 When a variant is overlapped by more than one element, multiple annotations are reported, separated by semicolumns (**;**)
 
-Annotation of epitopes is according to XX et al. The sequence of the epitope/epitopes is reported followed by the number and by the names of the HLAs that are predicted to recognize the epitope. Multiple annotations are separated by semicolumns (**;**). 
+Annotation of epitopes is according to https://doi.org/10.1038/s10038-020-0771-5 . The sequence of the epitope/epitopes is reported followed by the number and by the names of the HLAs that are predicted to recognize the epitope. Multiple annotations are separated by semicolumns (**;**). 
 
 For example in *FGDSVEEVL,1,HLA-C\*08:01*, **FGDSVEEVL** is the sequence of the predicted epitope/epitopes, **1** and **HLA-C\*08:01** indicate that the sequence is recognized by just 1 HLA, that is **HLA-C\*08:01**.
 
@@ -64,11 +66,12 @@ Functional annotation: Important!
 
 Please notice, that to work properly ``annotate.pl`` needs to have access (read) several annotation files which provide the different types of functional annotations. If these files are not available, the program will exit with an error, complaining that one or more of the files are missing.
 
-These files that are **strictly required** and can be downloaded from the current github repository. The repository itself is updated on a 2 week basis. So it is **highly advised** that the latest version of the files should be downloaded **before** you perform functional annotation.
-
+These files that are **strictly required** and can be downloaded from the current github repository. The repository itself is updated on a monthly. So it is **highly advised** that the latest version of the files should be downloaded **before** you perform functional annotation. The most recent version of each file 
+ is downloaded automatically in the Galaxy and docker instances.
+ 
 .. warning::
 
-   In the Galaxy and docker version, these files are updated automatically. All the files need to be (and normally are) in the **same folder** from which ``annotate.pl`` is executed.
+   All the files need to be (and normally are) in the **same folder** from which ``annotate.pl`` is executed.
 
 The annotation files, all in simple text format include:
 #. *genetic_code* -> 3 column file with the standard genetic code
@@ -77,13 +80,13 @@ The annotation files, all in simple text format include:
 
 #. *annot_table.pl* -> a 4 column tabular file with genomic coordinates of functional genomic elements
 
-#. *af_data_new.csv* -> tabular file with allele frequency data
+#. *AF_current.csv* -> tabular file with allele frequency data
 
 #. *MFE_annot.csv* -> tabular file with Mininum Free Energy predictions for all the possible Single Nucleotide substitutions in secondary structure elements
 
 #. *epitopes_annot.csv* -> tabular file with annotation of predicted epitopes
 
-#. *hyphy.csv* -> tabular file with aa residues under selection according to meme/fel
+#. *hyphy_current.csv* -> tabular file with aa residues under selection according to meme/fel
 
 Please see below for a brief guide that will help you to define additional functional elements in ``annot_table.pl``.
 
