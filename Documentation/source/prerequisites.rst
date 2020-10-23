@@ -10,7 +10,7 @@ Please follow this link https://sourceforge.net/projects/mummer/files/ for detai
 
 ::
 
-make install
+  make install
 
 you will still need to place add these files to your executable PATH, either by adding/copying all the files to one of the directories already included in the PATH or by adding the whole mummer directory (where all the software was compiled) to the your PATH of executables.
 
