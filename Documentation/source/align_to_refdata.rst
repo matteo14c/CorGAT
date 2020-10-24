@@ -7,7 +7,7 @@ The helper script *align.pl* can be used to align a collection of genomic sequen
 Inputs, alternatives:
 
 #. Through a multifasta file: option --multi;
-#. Through a multifasta file: option --multi;
+#. Through a list of file names: option --filelist;
 #. By specifying a "suffix" that is common to all the names of the files that should be analyses: option --suffix;
 
 ::
