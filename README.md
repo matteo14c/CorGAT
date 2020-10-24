@@ -125,8 +125,20 @@ Please see below for a brief guide that will help you to define additional funct
 
 ## Functional annotation: adding functional elements!
 
-Functional genomic elements in the genome of SARS-CoV-2 are specified by a four columns tabular format file called annot_table.pl. This file can be used to specify additional functional elements and/or use a personalized annotation. The file has a very simple format: for every element, the first two columns specify the start and end coordinate on the genome. The third column defines the functional class. At the moment 2 different classes are supported: protein coding sequence (CDS) and non-coding (nc). The fourth column is optional and contains an additional comment/name for the functional elements.
-Currently the Galaxy version does not allow the specification of additional annotations.
+Functional genomic elements in the genome of SARS-CoV-2 are specified by a five columns tabular format file called annot_table.pl. This file can be used to specify additional functional elements and/or use a personalized annotation. The file has a very simple format: for every element:
+1. The first two columns specifies the name of the element 
+2. The second the start position 
+3. The third the end coordinate on the genome. 
+4. The fourth the type of the functional element (class, currently 4 distinct classes are supported) 
+5. The last column contains additional/optional annotations. 
+
+
+Columns are separated by tabulations.
+At the moment 4 different classes of functional elements are supported: protein coding sequence (cds); regulatory elements (reg); cleavage sites of SARS-CoV-2 polyproteins (clv) and finally annotation of sites assocaited with epigenetic modifications (epi). 
+Please refer to the [readthedocs](https://corgat.readthedocs.io/en/latest/func_annotation.html#functional-annotation-adding-functional-elements "Adding elements")
+for a more detailed description of the file and how to modify it.
+
+Currently the Galaxy version does not allow the specification of additional annotations. While in the docker version the file can be found under: */export/galaxy_wrapper/funct_annot* .
 
 ## For impatient people
 
