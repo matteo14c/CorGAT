@@ -29,7 +29,7 @@ This script is very simple to use. Only 3 parameters are accepted in input:
 
 .. warning::
 
-Since the number of publicly available genome sequences is constantly increased over times, some of these files are updated on a monthly basis. In particular the *hyphy* and *AF* files. The corgat.conf file as provided in this repo, is configured to use the most up to date version of these files, each denoted by the *current.csv* suffix. Older versions of each file are stored in the *hyphy_data* and *AF* folders respectively. Should you need to use an older version of these files for any specific reason, you can simply modify your copy of corgat.conf accordingly. Average users however, should not need to modify this file. 
+Since the number of publicly available genome sequences is increasing constantly over time, the hyphy and AF files are updated on a regular (monthly) basis. The corgat.conf file as provided in this repo is set to use the most up to date version of each file, denoted by suffix current.csv. Older versions are stored in the hyphy_data and AF folders respectively. Should you need to use an older version of the AF or hyphy annotations for any specific reason, you can simply modify your copy of corgat.conf accordingly. Average users however, should not need to edit this file. 
 
 
 The output consists in a simple table, delineated by <tab> (tabulations) and formatted as follows. If/when the docker or Galaxy version of this software are used, the output can be visualized directly in your browser:
@@ -62,12 +62,11 @@ Annotation of sites under selection is very simple: **fel:** is used to indicate
 The MFE annot column reports **predicted changes** in MFE (minimum free energy) for variants associated with secondary structure elements. Please notice that this annotation does not report the predicted MFE, but the **difference** between the MFE of the element based on the reference genome sequence, with the MFE calculated on the alternative sequence. Negative values indicate a descrease in MFE (a more stable structure). Positive values are suggestive of a less stable structure (increase in MFE). Three values are reported, representing respectively MFE of: *optimal secondary structure*, *the thermodynamic ensemble* and *the centroid secondary structure*. Obviusly there is no absolute cut-off for interpreting these results, however high shifts (>1 or <-1) in MFE might be suggestive of functional implications.
 
 Functional annotation: Important!
----------------------------------
+----------------------------------
 
 Please notice, that to work properly ``annotate.pl`` needs to have access (read) several annotation files which provide the different types of functional annotations. If these files are not available, the program will exit with an error, complaining that one or more of the files are missing.
 
-These files that are **strictly required** and can be downloaded from the current github repository. The repository itself is updated on a monthly. So it is **highly advised** that the latest version of the files should be downloaded **before** you perform functional annotation. The most recent version of each file 
- is downloaded automatically in the Galaxy and docker instances.
+These files are *strictly required* and can be downloaded from the CorGAT Github repository. The repository itself is updated on a monthly basis. So it is *highly advised* that the latest version of the files should be downloaded *before* you perform your analyses. The Galaxy and docker versions of CorGAT are configured to use the most recent version of each file. The update process is handled automatically
  
 .. warning::
 
