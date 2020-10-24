@@ -1,0 +1,157 @@
+$ make install
+cd /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/src/kurtz; /Library/Developer/CommandLineTools/usr/bin/make mummer
+cd libbasedir; /Library/Developer/CommandLineTools/usr/bin/make libbase.a
+/usr/bin/gcc -O3   -c -o cleanMUMcand.o cleanMUMcand.c
+/usr/bin/gcc -O3   -c -o clock.o clock.c
+/usr/bin/gcc -O3   -c -o mapfile.o mapfile.c
+/usr/bin/gcc -O3   -c -o multiseq.o multiseq.c
+/usr/bin/gcc -O3   -c -o procopt.o procopt.c
+/usr/bin/gcc -O3   -c -o safescpy.o safescpy.c
+/usr/bin/gcc -O3   -c -o seterror.o seterror.c
+/usr/bin/gcc -O3   -c -o space.o space.c
+ar sruv libbase.a cleanMUMcand.o clock.o mapfile.o multiseq.o procopt.o safescpy.o seterror.o space.o
+ar: creating archive libbase.a
+a - cleanMUMcand.o
+a - clock.o
+a - mapfile.o
+a - multiseq.o
+a - procopt.o
+a - safescpy.o
+a - seterror.o
+a - space.o
+cd streesrc; /Library/Developer/CommandLineTools/usr/bin/make libstree.a
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o construct.o construct.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o access.o access.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o scanpref.o scanpref.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o linkloc.o linkloc.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o depthtab.o depthtab.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o ex2leav.o ex2leav.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o dfs.o dfs.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o overmax.o overmax.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o oversucc.o oversucc.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o addleafcount.o addleafcount.c
+/usr/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o iterator.o iterator.c
+ar sruv libstree.a construct.o access.o scanpref.o linkloc.o depthtab.o ex2leav.o dfs.o overmax.o oversucc.o addleafcount.o iterator.o
+ar: creating archive libstree.a
+a - construct.o
+a - access.o
+a - scanpref.o
+a - linkloc.o
+a - depthtab.o
+a - ex2leav.o
+a - dfs.o
+a - overmax.o
+a - oversucc.o
+a - addleafcount.o
+a - iterator.o
+cd mm3src; /Library/Developer/CommandLineTools/usr/bin/make mummer
+/usr/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o maxmat3.o maxmat3.c
+/usr/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o maxmatopt.o maxmatopt.c
+/usr/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o maxmatinp.o maxmatinp.c
+/usr/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o findmumcand.o findmumcand.c
+/usr/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o findmaxmat.o findmaxmat.c
+/usr/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o procmaxmat.o procmaxmat.c
+/usr/bin/gcc  maxmat3.o maxmatopt.o maxmatinp.o findmumcand.o findmaxmat.o procmaxmat.o ../streesrc/libstree.a ../libbasedir/libbase.a \
+	-o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mummer; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mummer
+cd /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/src/tigr; /Library/Developer/CommandLineTools/usr/bin/make all
+/usr/bin/g++ -O3 tigrinc.cc -c -o tigrinc.o
+/usr/bin/g++ -O3 annotate.cc tigrinc.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/annotate; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/annotate
+/usr/bin/g++ -O3 combineMUMs.cc tigrinc.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/combineMUMs; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/combineMUMs
+combineMUMs.cc:109:27: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+char  * Error_File_Name = DEFAULT_ERROR_FILE_NAME;
+                          ^
+combineMUMs.cc:26:38: note: expanded from macro 'DEFAULT_ERROR_FILE_NAME'
+#define  DEFAULT_ERROR_FILE_NAME     "witherrors.gaps"
+                                     ^
+combineMUMs.cc:135:24: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+char  * Query_Suffix = "Query";
+                       ^
+combineMUMs.cc:145:22: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+char  * Ref_Suffix = "Ref";
+                     ^
+3 warnings generated.
+/usr/bin/g++ -O3 delta.cc -c -o delta.o
+/usr/bin/g++ -O3 delta-filter.cc tigrinc.o delta.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/delta-filter; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/delta-filter
+/usr/bin/g++ -O3 gaps.cc tigrinc.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/gaps; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/gaps
+/usr/bin/g++ -O3 mgaps.cc tigrinc.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mgaps; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mgaps
+mgaps.cc:533:20: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+           label = "#\n";
+                   ^
+mgaps.cc:620:19: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          label = "#\n";
+                  ^
+2 warnings generated.
+/usr/bin/g++ -O3 sw_align.cc -c -o sw_align.o
+/usr/bin/g++ -O3 postnuc.cc tigrinc.o sw_align.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/postnuc; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/postnuc
+/usr/bin/g++ -O3 translate.cc -c -o translate.o
+/usr/bin/g++ -O3 postpro.cc tigrinc.o sw_align.o translate.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/postpro; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/postpro
+/usr/bin/g++ -O3 prenuc.cc tigrinc.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/prenuc; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/prenuc
+/usr/bin/g++ -O3 prepro.cc tigrinc.o translate.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/prepro; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin/prepro
+/usr/bin/g++ -O3 repeat-match.cc tigrinc.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/repeat-match; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/repeat-match
+repeat-match.cc:850:43: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                  || i > String_Separator && j > String_Separator)
+                  ~~ ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+repeat-match.cc:850:43: note: place parentheses around the '&&' expression to silence this warning
+                  || i > String_Separator && j > String_Separator)
+                                          ^
+                     (                                           )
+1 warning generated.
+/usr/bin/g++ -O3 show-aligns.cc tigrinc.o translate.o delta.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-aligns; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-aligns
+/usr/bin/g++ -O3 show-coords.cc tigrinc.o delta.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-coords; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-coords
+show-coords.cc:799:12: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+    type = "NUCMER";
+           ^
+show-coords.cc:801:12: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+    type = "PROMER";
+           ^
+show-coords.cc:803:12: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+    type = "NULL";
+           ^
+3 warnings generated.
+/usr/bin/g++ -O3 show-tiling.cc tigrinc.o delta.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-tiling; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-tiling
+/usr/bin/g++ -O3 show-snps.cc tigrinc.o translate.o delta.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-snps; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-snps
+/usr/bin/g++ -O3 show-diff.cc tigrinc.o delta.o -o /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-diff; chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/show-diff
+cd /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/scripts; /Library/Developer/CommandLineTools/usr/bin/make all
+/usr/bin/sed  -e 's?__CSH_PATH?/bin/csh?g' \
+		-e 's?__BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23?g' \
+		-e 's?__SCRIPT_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/scripts?g' \
+		exact-tandems.csh > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/exact-tandems
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/exact-tandems
+/usr/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+		-e 's?__SCRIPT_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/scripts?g' \
+                mapview.pl > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mapview
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mapview
+/usr/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+                -e 's?__SCRIPT_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/scripts?g' \
+                -e 's?__BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23?g' \
+                mummerplot.pl > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mummerplot
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/mummerplot
+/usr/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+                -e 's?__SCRIPT_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/scripts?g' \
+                -e 's?__AUX_BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin?g' \
+                -e 's?__BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23?g' \
+                 nucmer.pl > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/nucmer
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/nucmer
+/usr/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+                -e 's?__SCRIPT_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/scripts?g' \
+                -e 's?__AUX_BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/aux_bin?g' \
+                -e 's?__BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23?g' \
+                promer.pl > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/promer
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/promer
+/usr/bin/sed  -e 's?__CSH_PATH?/bin/csh?g' \
+		-e 's?__BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23?g' \
+		run-mummer1.csh > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/run-mummer1
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/run-mummer1
+/usr/bin/sed  -e 's?__CSH_PATH?/bin/csh?g' \
+		-e 's?__BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23?g' \
+		run-mummer3.csh > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/run-mummer3
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/run-mummer3
+/usr/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+		nucmer2xfig.pl > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/nucmer2xfig
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/nucmer2xfig
+/usr/bin/sed -e 's?__PERL_PATH?/usr/bin/perl?g' \
+               -e 's?__SCRIPT_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/scripts?g' \
+               -e 's?__BIN_DIR?/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23?g' \
+                 dnadiff.pl > /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/dnadiff
+chmod 755 /Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/dnadiff
+MacBook-Pro-di-Marco:MUMmer3.23 marco$ 
