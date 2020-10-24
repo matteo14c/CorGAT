@@ -12,10 +12,83 @@ Please follow this link https://sourceforge.net/projects/mummer/files/ for detai
 
   make install
 
-you will still need to place add these files to your executable PATH, either by adding/copying all the files to one of the directories already included in the PATH or by adding the whole mummer directory (where all the software was compiled) to the your PATH of executables.
+you will still need to place add these files to your executable PATH, either by adding/copying all the files to one of the directories already included in the PATH or by adding the whole mummer directory (where all the software was compiled) to the your PATH of executables. If for example all your executables are in a folder called "Mummer" in your home directory on a unix system you can symply run:
 
-Reference genome configuration
-------------------------------
+::
+
+  export PATH=~/Mummer:$PATH
+  
+Mummer installation MacOS X
+----------------------------
+
+Download Mummer at: https://sourceforge.net/projects/mummer/files/latest/download and extract the archive (tar.gz) file.
+Open up Terminal and:
+
+::
+
+  tar xvzf MUMmer3.23.tar.gz
+
+As explained in the INSTALL file, included in the Mummer package to build Mummer:
+
+::
+
+  cd MUMmer3.23
+  make check
+
+If make check does not report any error everything should be ok, then run:
+
+::
+
+  make install
+
+You should get something similar to `this <https://gist.githubusercontent.com/mtangaro/53ec0c88a21255aaf38f460b5cddb340/raw/eb2504d17d2606384fab4e4d805fafe66406087b/mummer_make_install.txt>`_.
+
+::
+
+Now that mummer you have successfully built the binaries are, you need to add them to $PATH. Run the following command with your favourite text editor:
+::
+
+  sudo vim /etc/paths
+
+Enter your password, when prompted.
+Go to the bottom of the file, and enter the path you wish to add. For example, if you built Mummer in /Users/yourname/test/MuMmer3.23, add this to the file:
+::
+
+  /usr/local/bin
+  /usr/bin
+  /bin
+  /usr/sbin
+  /sbin
+  /Users/yourname/test/MUMmer3.23
+
+Save the file in vim
+::
+
+  :wq
+  
+And finally you can test if everything is in place. Open a *NEW* terminal. To test if mummer is now in your PATH, run:
+::
+
+  echo $PATH
+  
+You should see something like:
+::
+
+  echo $PATH
+  /usr/local/opt/ruby/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/yourname/test/MUMmer3.23
+
+The Mummer package, and all its utilities are now available to be executed in your shell, and for CorGAT as well. For example, type “nucmer” to execute nucmer:
+::
+
+  nucmer
+  USAGE: nucmer  [options]  <Reference>  <Query>
+  
+  Try '/Users/marco/IBIOM-CNR/CorGAT/MUMmer3.23/nucmer -h' for more information.
+
+
+
+Download of the Reference genome 
+--------------------------------
 
 The reference genome of SARS-CoV-2 can be found `here <https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/858/895/GCF_009858895.2_ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.gz>`_.
 
