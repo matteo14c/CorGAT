@@ -18,35 +18,31 @@ Please check the section :doc:`prerequisites` to obtain the reference genome seq
 
 ::
 
-Finally the name of the output file can be specified by using the **--out option**. This defaults to **ALIGN_out.tsv**. 
-
-Once you have everything in place, you can simply run:
-::
-  
-  perl align.pl --multi <multifasta>` to align all the genomes contained in a multifasta file or
-
-::
-  
-  perl align.pl --suffix <fasta>` to align all the .fasta files contained in the current folder or
-  
-:: 
-  
-  perl align.pl --filelist <list>` to align all the files specified in a list of file names.One file per line. Again, all files need to be in the current folder
+Finally the name of the output file can be specified by using the **--out option**. This defaults to **ALIGN_out.tsv**.  
 
 ::
 
-For every genome   you will obtain a file with the *.snps* extension,  reporting all the polymorphism identified by nucmer. These files will be stored in the temporary directory, as specified by the --tmpdir option (default align.tmp). If the --clean option is set to **T (TRUE) however, this directory will be removed** after the execution of the program.
-
-::
-
-The final output consists in a simple tabular file (default name **ALIGN_out.tsv**) that lists genetic variants on the rows, and reports their presence (1) or absence (0) in the different genomes included in your analysis in the columns. 
-
-
-
-Once you have everything in place you can simply run, To check if everything works:
-
-::
+Once you have everything in place, to check if everything works you can simply run: 
 
   perl align.pl
 
 The help message, should be self-explanatory. You can try all the 3 different commands under the EXAMPLE section to test align.pl . Example input files are also provided in the main repository of CorGAT
+::
+  
+  perl align.pl --multi <apollo.fa>`  will align all the genomes contained in the multifasta file named apollo.fa
+
+::
+  
+  perl align.pl --suffix fasta` will use all the files with the *.fasta suffix in the current folder and finally
+  
+:: 
+  
+  perl align.pl --filelist lfile` will align the files specified in lfile. One file per line. Again, all files need to be in the current folder
+
+::
+
+For every genome you will obtain a file with the *.snps* extension,  reporting all the polymorphism identified by nucmer. These files will be stored in the temporary directory, as specified by the --tmpdir option (default align.tmp). If the --clean option is set to **T (TRUE) however, this directory will be removed** after the execution of the program.
+
+::
+
+The final output consists in a simple tabular file (default name **ALIGN_out.tsv**) that lists genetic variants on the rows, and reports their presence (1) or absence (0) in the different genomes included in your analysis in the columns. This file provides the input for *annotate.pl*
