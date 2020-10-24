@@ -6,10 +6,10 @@ This repository contains a collection of simple Perl scripts that can be used to
 
 This software package is composed of 2 very simple scripts and a collection of files with functional annotation data. The only requirement is that you have an up to date installation (see below) of the Mummer package in your system and a copy of the reference genomic sequence, in fasta format. All the files (scripts, genomic sequences and accessory files) should be placed in the same folder. If you do not feel comfortable in installing/running these utilities from the command line, you can find a Galaxy running the software at http://corgat.cloud.ba.infn.it/galaxy , or download a dockerized version of the Galaxy, with all the tools at https://hub.docker.com/r/pmandreoli/galaxy_corgat.
 
-Please follow this link https://sourceforge.net/projects/mummer/files/ for detailed instruction on how to install and run Mummer.
+Please follow this [link](https://sourceforge.net/projects/mummer/files/ "Mummer Download") for detailed instruction on how to install and run Mummer. A detailed manual can also be found in CorGAT's main documentation at [readthedocs](https://corgat.readthedocs.io/en/latest/prerequisites.html "Install Mummer")
 
 The reference genome of SARS-CoV-2 can be obtained from:
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/858/895/GCF_009858895.2_ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.gz
+[NCBI](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/858/895/GCF_009858895.2_ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.gz "Reference Genome")
 on a unix system you can download this file, by
 
 `wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/858/895/GCF_009858895.2_ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.gz`
@@ -126,7 +126,7 @@ Please see below for a brief guide that will help you to define additional funct
 ## Functional annotation: adding functional elements!
 
 Functional genomic elements in the genome of SARS-CoV-2 are specified by a four columns tabular format file called annot_table.pl. This file can be used to specify additional functional elements and/or use a personalized annotation. The file has a very simple format: for every element, the first two columns specify the start and end coordinate on the genome. The third column defines the functional class. At the moment 2 different classes are supported: protein coding sequence (CDS) and non-coding (nc). The fourth column is optional and contains an additional comment/name for the functional elements.
-Currently the Galaxy/dockerized versions do not allow the specification of additional annotations.
+Currently the Galaxy version does not allow the specification of additional annotations.
 
 ## For impatient people
 
