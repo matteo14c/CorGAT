@@ -1,7 +1,31 @@
 Prerequisites and usage
 =======================
 
-This software package is composed of 2 very simple scripts and a collection of files with functional annotation data. The only requirement is that you have an up to date installation (see below) of the Mummer package in your system and a copy of the reference genomic sequence, in fasta format. All the files (scripts, genomic sequences and accessory files) should be placed in the same folder. 
+This software package is composed of 2 very simple scripts and a collection of files with functional annotation data. The only requirement is that you have an up to date installation (see below) of the Mummer package in your system and a copy of the reference genomic sequence, in fasta format. All the files (scripts, genomic sequences and accessory files) should be placed in the same folder. To install the command line version od CorGAT you can simply download the most recent version of the program, from the following [link](https://github.com/matteo14c/CorGAT/blob/Revision_V1/ "CorGAT Download").
+Click on code, and then on Download Zip, as illustrated in this Figure:
+
+.. figure:: _static/img/corgat14.png
+   :scale: 50%
+   :align: center
+
+At this point, you can place yoursef il the folder where the program was downloaded. For example if the default of your browser is the Downloads folder:
+
+::
+
+  cd Downloads
+
+you should see a zip archive named ``CorGAT-Revision_V1.zip``. At this point to execute CorGAT you only need to unzip the archive and place yoursef in the CorGAT-Revision_V1 folded
+
+::
+
+  unzip CorGAT-Revision_V1.zip
+
+::
+
+  cd CorGAT-Revision_V1
+
+
+
 
 Mummer installation
 -------------------
