@@ -107,13 +107,13 @@ Finally the fifth column is optional and contains an additional comments and ann
 To add elements to ``annot_table.pl`` you need to open this file with your favourite text editor. First of all position yourself in the CorGAT directory (the directory that was created when you downloaded CorGAT from Github). You should see a file named ``annot_table.pl`` . Open this file with your favourite text editor. You should see something similat to this:
 
 .. figure:: _static/img/corgat12.1.png
-   :scale: 30%
+   :scale: 70%
    :align: center
    
 At this point any modification of the annotation file should be very simple. For example you can delete any element functional element by deleting the corresponding entry in this file. To add a novel element instead, you should add a line. As you can see from this example, where a custom annotation (custom) of the polyA tail of the genome as been added. 
 
 .. figure:: _static/img/corgat13.png
-   :scale: 50%
+   :scale: 70%
    :align: center
    
 Please rememember that the different columns of this files are delineated by ``tabulations`. Currently the Galaxy version of CorGAT does not allow the specification of a custom ``annot_table.pl`` file. In the docker version you can find/edit this file in the /export/covid_wrapper/funct_annot directory.
