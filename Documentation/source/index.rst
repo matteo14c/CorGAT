@@ -39,6 +39,13 @@ If you find any issue with the software, please contact `me <mailto:matteo.chiar
 
    galaxy_import_data.rst
    galaxy_analyse_data.rst
+ 
+.. toctree::
+   :maxdepth: 2
+   :caption: Docker version
+
+   install_docker.rst
+
 
 Indices and tables
 ==================
