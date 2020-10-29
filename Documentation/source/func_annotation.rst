@@ -93,7 +93,8 @@ Please see below for a brief guide that will help you to define additional funct
 Functional annotation: adding functional elements!
 --------------------------------------------------
 
-Functional genomic elements in the genome of SARS-CoV-2 are specified by a five columns tabular format file called ``annot_table.pl``. This file can be used to specify additional functional elements and/or use a personalized annotation. The file has a very simple format: for every element, the first three columns specify respectively, the name of the element (column 1), the start (column 2) and the end coordinate (column 3) on the genome. The fourth column defines the functional class of the element. At the moment 4 different classes are supported: 
+Functional genomic elements in the genome of SARS-CoV-2 are specified by a five columns tabular format file called ``annot_table.pl``. This file can be used to specify additional functional elements and/or use a personalized annotation. The file has a very simple format: for every element, the first three columns specify respectively, the name of the element (column 1), the start (column 2) and the end coordinate (column 3) on the genome. The fourth column defines the functional class of the element. At the moment 4 different classes are supported:
+
 #. protein coding sequences (*cds*)
 
 #. regulatory elements (*reg*)
