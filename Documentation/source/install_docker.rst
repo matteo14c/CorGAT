@@ -10,9 +10,9 @@ How to use
 * To install Docker follow this `procedure <https://docs.docker.com/engine/install//>`_.
 
 * Run the container (i.e CorGAT)
-  `docker run -d --privileged -p 8080:80 -p 8021:21 -p 8022:22 laniakeacloud/galaxy_corgat:19.01`
+  `docker run -d --privileged -p 8080:80 -p 8021:21 -p 8022:22 laniakeacloud/galaxy_corgat:20.05`
   
-* Log into Galaxy at http://localhost:8080 username: `admin@galaxy.org` passwd: `admin`
+* Log into Galaxy at http://localhost:8080 username: `admin@galaxy.org` passwd: `password`
 
 What to do next:
 ================
