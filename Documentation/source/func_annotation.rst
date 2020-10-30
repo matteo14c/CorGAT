@@ -117,7 +117,6 @@ At this point any modification of the annotation file should be very simple. For
    :scale: 70%
    :align: center
    
-Please rememember that the different columns of this files are delineated by ``tabulations``. Currently the Galaxy version of CorGAT does not allow the specification of a custom ``annot_table.pl`` file. In the docker version you can find/edit this file in the ``/export/covid_wrapper/funct_annot directory``.
-You can use the same procedure as illustated above to edit the file.
+Please rememember that the different columns of this files are delineated by ``tabulations``. Currently the Galaxy and docker version of CorGAT does not allow the specification of a custom ``annot_table.pl`` file. 
 
 
