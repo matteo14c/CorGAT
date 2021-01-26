@@ -1,7 +1,35 @@
+####DEFAULT configuration. Files as provided in the CorGAT main folder
 $fss=13468;
+%conf=(
+"genetic"=>"genetic_code",
+"genome"=>"GCF_009858895.2_ASM985889v3_genomic.fna",
+"annot"=>"annot_table.pl",
+"hyphy"=>"hyphy.csv",
+"AF"=>"af_data_new.csv",
+"MFE"=>"MFE_annot.csv",
+"EPI"=>"epitopes_annot.csv"
+);
 
-$gen_code="genetic_code";
-die("need genetic code file in the current folder\n") unless -e "genetic_code";
+#PARAMETERS
+%arguments=
+(
+"--in"=>"F",                 #F==FALSE, --multi <file> used to pass a multifasta input file
+"--conf"=>"corgat.conf",     #F==FALSE, --filelist <file> used to pass a file of file names. 
+#####OUTPUT file#############################################
+"--out"=>"CorGAT_out.tsv"    #file #OUTPUT #tabulare
+);
+
+############################################################
+# check args and config
+check_arguments();
+$conf_file=$arguments{"--conf"};
+process_configuration_file($conf_file);
+
+###########################################################
+# read ancillary files
+
+$gen_code=$conf{"genetic"};
+die("need genetic code file in the current folder\n") unless -e $gen_code;
 open(IN,$gen_code);
 while(<IN>)
 {
@@ -9,8 +37,8 @@ while(<IN>)
 	$code{$triplet}=$oneL;
 }
 
-$genome="GCA_009858895.3_ASM985889v3_genomic.fna";
-die("need reference genome file in the current folder\n") unless -e "GCA_009858895.3_ASM985889v3_genomic.fna";
+$genome=$conf{"genome"};
+die("need reference genome file in the current folder\n") unless -e $genome;
 open(IN,$genome);
 while(<IN>)
 {
@@ -18,8 +46,8 @@ while(<IN>)
 	chomp;
 	$seq.=$_;
 }
-$table="annot_table.pl";#"simple_annot_mirror";#"annot_table.pl";#sl5     29728   29768   reg
-die("need detailed annotation file for SARS-CoV-2 in the current folder") unless -e "annot_table.pl";
+$table=$conf{"annot"};#"simple_annot_mirror";#"annot_table.pl";#sl5     29728   29768   reg
+die("need detailed annotation file for SARS-CoV-2 in the current folder") unless -e $table;
 open(IN,$table);
 while(<IN>)
 {
@@ -49,19 +77,21 @@ while(<IN>)
 		$res=$seq_res[$i];
 	}
 }
-%AF_data=%{read_simple_table("af_data_new.csv")};
-%MFE_data=%{read_simple_table("MFE_annot.csv")};
-%epi_data=%{read_epitopes("epitopes_annot.csv")};
-%hyphy_data=%{read_hyphy("hyphy_novel.csv")};
+%AF_data=%{read_simple_table($conf{"AF"})};
+%MFE_data=%{read_simple_table($conf{"MFE"})};
+%epi_data=%{read_epitopes($conf{"EPI"})};
+%hyphy_data=%{read_hyphy($conf{"hyphy"})};
 
+################################################################################################################
 
-
-$var_File=shift;#""cl7.csv";#"phenetic_indels_sars_cov2.csv";
-die("no input\n") unless -e $var_File;
+$var_File= $arguments{"--in"}; #shift;#""cl7.csv";#"phenetic_indels_sars_cov2.csv";
+$out_File= $arguments{"--out"};
+die("input file $var_File does not exist\n") unless -e $var_File;
 open(IN,$var_File);
+open(OUT,">$out_File");
 $header=<IN>;
 @header=(split(/\s+/,$header));
-print "POS\tREF\tALT\tannot\tAF\tHyphy\tEpitope\tMFE\n";
+print OUT "POS\tREF\tALT\tannot\tAF\tHyphy\tEpitope\tMFE\n";
 while(<IN>)
 {
 	($change,@pos)=(split());
@@ -106,8 +136,9 @@ while(<IN>)
 	}
 	$epitope_string=~s/\s+/;/g;
 	#$epitope_string="EpiT:$epitope_string" unless $epitope_string eq "NA";
-	print "$pos\t$ref\t$alt\t$annot_string\t$AF\t$epitope_string\t$hyphy_string\t$MFE_string\n" #if $contained==1;
+	print OUT "$pos\t$ref\t$alt\t$annot_string\t$AF\t$epitope_string\t$hyphy_string\t$MFE_string\n" #if $contained==1;
 }
+############################################################################################################################
 
 sub translate
 {
@@ -392,3 +423,62 @@ sub read_hyphy
 	}
 	return \%data;
 }
+
+sub check_arguments
+{
+        my @arguments=@ARGV;
+        for (my $i=0;$i<=$#ARGV;$i+=2)
+        {
+                my $act=$ARGV[$i];
+                my $val=$ARGV[$i+1];
+                if (exists $arguments{$act})
+                {
+                        $arguments{$act}=$val;
+                }else{
+                        warn("$act: unknown argument\n");
+                        my @valid=keys %arguments;
+			print_help();
+                        warn("Valid arguments are @valid\n");
+                        die("All those moments will be lost in time, like tears in rain.\n Time to die!\n"); #HELP.txt
+                }
+        }
+	if ($arguments{"--in"} eq "F")
+	{
+		print_help();
+		die("No input file provided\n");
+	}
+}
+
+sub process_configuration_file
+{
+	$conf_file=$_[0];
+	open(IN,$conf_file);
+	while(<IN>)
+	{
+		chomp();
+		($key,$value)=(split());
+		unless ($conf{$key})
+		{
+			@valid=keys %conf;
+			die("Provided a wrong value in the conf file. $key is not valid. Valid keys are: @valid\n");
+		}else{
+			$conf{$key}=$value;
+		}
+	}
+}
+
+sub print_help
+{
+        print "This program performs functional annotation of SARS-CoV-2 genetic variants. It can process only files created by the align.pl utility\n"; 
+	print  "That is simple tabular files of phenetic profiles (presence absence of variants). Please refere to the CorGAT online docs should you\n"; 
+	print  "find this explanation unclear:\n";
+        print "##INPUT PARAMETERS\n\n";
+        print "--in <<filename>> input file name\n";
+        print "Additional (not strictly required) options are as follows:\n\n";
+        print "--conf <<name>> name of a configuration file. See manual. Defaults to corgat.conf\n";
+        print "\n##OUTPUT PARAMETERS\n\n";
+        print "--out <<name>> Name of the output file. Defaults to CorGAT_out.tsv\n";
+        print "\n##EXAMPLE:\n\n";
+        print "1# input is ALIGN_out.tsv:\nperl annotate.pl --in ALIGN_out.tsv\n\n";
+}
+
