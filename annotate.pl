@@ -300,11 +300,21 @@ sub annot_CDS
 				{
 					$eff.="Ins";
 					$Talt=(translate($Calt,\%code))[1];
+					if ($Cref=~/[ACTG]{1,}/)
+                                        {
+                                                $Cref=~s/\.//g;
+                                                $Tref=(translate($Cref,\%code))[1];
+                                        }
 				}
                                 if ($alt=~/\./)
 				{
 					$eff.="Del";
 					$Tref=(translate($Cref,\%code))[1];
+					if ($Calt=~/[ACTG]{1,}/)
+ 					{
+ 						$Calt=~s/\.//g;
+ 						$Talt=(translate($Calt,\%code))[1];
+ 					}
 				}
 				if ($eff=~/Del/)
 				{
