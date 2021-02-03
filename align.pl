@@ -164,6 +164,11 @@ sub split_fasta
 			my $id=$1;
 			$id=(split(/\s+/,$id))[0];
 			$id=~s/\-//g;
+			if ($id=~/\|(EPI.*)\|/)
+			{
+				$id=$1;
+                	}
+			#for gisaid
 			open(OUT,">$tgdir/$id.fasta");
 			print OUT ">$id\n";
 			push(@list_files,"$tgdir/$id.fasta");
@@ -188,11 +193,7 @@ sub align
 		chomp($name);
         	$name=~s/\.fasta//;
         	$name=~s/\.fna//;
-        	$name=~s/\.fa//;
-		if ($id=~/\|(EPI.*)\|/)
-		{
-			$id=$1;
-                }       
+        	$name=~s/\.fa//;      
                 $id=~s/\//\_/g;
 		if (-e "$TGdir/$name\_ref_qry.snps")
         	{
