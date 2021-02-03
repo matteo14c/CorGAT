@@ -418,9 +418,9 @@ sub read_hyphy
 		($gene,$pos,@annot)=(split(/\,/));
 		foreach $a (@annot)
 		{
+			$a=~s/{//g;
+			$a=~s/}//g;
 			($ref,$key)=(split(/\:/,$a));
-			$ref=~s/{//g;
-			$ref=~s/}//g;
 			$ref=~s/"//g;
 			$key=~s/"//g;
 			#print "$gene $pos $ref $key\n";
