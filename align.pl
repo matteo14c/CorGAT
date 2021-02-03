@@ -168,6 +168,7 @@ sub split_fasta
 			{
 				$id=$1;
                 	}
+			$id=~s/\//\_/g;
 			#for gisaid
 			open(OUT,">$tgdir/$id.fasta");
 			print OUT ">$id\n";
@@ -193,8 +194,7 @@ sub align
 		chomp($name);
         	$name=~s/\.fasta//;
         	$name=~s/\.fna//;
-        	$name=~s/\.fa//;      
-                $id=~s/\//\_/g;
+        	$name=~s/\.fa//;    
 		if (-e "$TGdir/$name\_ref_qry.snps")
         	{
                 	print "output file $name\_ref_qry.snps already in folder. Alignment skipped\n"
