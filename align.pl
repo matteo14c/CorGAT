@@ -189,6 +189,11 @@ sub align
         	$name=~s/\.fasta//;
         	$name=~s/\.fna//;
         	$name=~s/\.fa//;
+		if ($id=~/\|(EPI.*)\|/)
+		{
+			$id=$1;
+                }       
+                $id=~s/\//\_/g;
 		if (-e "$TGdir/$name\_ref_qry.snps")
         	{
                 	print "output file $name\_ref_qry.snps already in folder. Alignment skipped\n"
