@@ -1,0 +1,147 @@
+P0DTG1 orf3C
+P0DTD8 orf7B
+P0DTD3 orf9c
+P0DTD2 orf9b
+P0DTD1 orf1ab
+P0DTC9 geneN
+P0DTC8 orf8
+P0DTC7 orf7A
+P0DTC6 orf6
+P0DTC5 geneM
+P0DTC4 geneE
+P0DTC3 orf3a
+P0DTC2 spike
+P0DTC1 orf1a
+orf1a	154	180	Region	Note=Binding to 40s ribosome mRNA entry channel;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32680882;Dbxref=PMID:32680882
+orf1a	926	999	Region	Note=Disordered;Ontology_term=ECO:0000256;evidence=ECO:0000256|SAM:MobiDB-lite
+orf1a	180	181	Site	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	818	819	Site	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	2763	2764	Site	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	3263	3264	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	3569	3570	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	3859	3860	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	3942	3943	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	4140	4141	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	4253	4254	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	4392	4393	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1a	154	157	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. YEDF->AEDA;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32908316;Dbxref=PMID:32908316
+orf1a	164	165	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. KH->AA;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32908316;Dbxref=PMID:32908316
+orf1a	164	164	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32680882;Dbxref=PMID:32680882
+orf1a	165	165	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. H->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32680882;Dbxref=PMID:32680882
+orf1a	171	175	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. RELMR->EELME;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32908316;Dbxref=PMID:32908316
+orf1a	1629	1629	Mutagenesis	Note=Partial loss of ISG15 cleavage in vitro. V->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1a	1632	1632	Mutagenesis	Note=Partial loss of ISG15 cleavage in vitro. F->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1a	1638	1638	Mutagenesis	Note=Partial loss of ubiquitin cleavage in vitro%3B no effect on ISG15 cleavage in vitro. T->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1a	1638	1638	Mutagenesis	Note=Increased cleavage of ubiquitin in vitro%3B no effect on ISG15 cleavage in vitro. T->L;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1a	1674	1674	Mutagenesis	Note=Complete loss of PL-pro activity. C->S;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1a	1831	1831	Mutagenesis	Note=Reduced inhibition by GRL-0617. Y->G%2CT;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+spike	13	303	Domain	Note=BetaCoV S1-NTD;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01270
+spike	334	527	Domain	Note=BetaCoV S1-CTD;Ontology_term=ECO:0000255,ECO:0000269;evidence=ECO:0000255|PROSITE-ProRule:PRU01269,ECO:0000269|PubMed:32132184;Dbxref=PMID:32132184
+spike	319	541	Region	Note=Receptor-binding domain (RBD);Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32132184;Dbxref=PMID:32132184
+spike	403	405	Region	Note=Integrin-binding motif%3B;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33102950;Dbxref=PMID:33102950
+spike	437	508	Region	Note=Receptor-binding motif%3B binding to human ACE2;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P59594
+spike	816	837	Region	Note=Fusion peptide 1;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04099
+spike	835	855	Region	Note=Fusion peptide 2;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04099
+spike	920	970	Region	Note=Heptad repeat 1;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04099
+spike	1163	1202	Region	Note=Heptad repeat 2;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04099
+spike	1269	1273	Motif	Note=KxHxx;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04099
+spike	685	686	Site	Note=Cleavage%3B by TMPRSS2 or furin;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32142651,ECO:0000269|PubMed:32362314;Dbxref=PMID:32142651,PMID:32362314
+spike	815	816	Site	Note=Cleavage%3B by host;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04099
+spike	17	17	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32366695,PMID:32979942
+spike	61	61	Glycosylation	Note=N-linked (GlcNAc...) (hybrid) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	74	74	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32363391,PMID:32366695,PMID:32979942
+spike	122	122	Glycosylation	Note=N-linked (GlcNAc...) (hybrid) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	149	149	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32363391,PMID:32366695,PMID:32979942
+spike	165	165	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	234	234	Glycosylation	Note=N-linked (GlcNAc...) (high mannose) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	282	282	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	323	323	Glycosylation	Note=O-linked (GalNAc) threonine%3B by host;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32363391;Dbxref=PMID:32363391
+spike	325	325	Glycosylation	Note=O-linked (HexNAc...) serine%3B by host;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32363391;Dbxref=PMID:32363391
+spike	331	331	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	343	343	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	603	603	Glycosylation	Note=N-linked (GlcNAc...) (hybrid) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32366695,PMID:32979942
+spike	616	616	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	657	657	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	709	709	Glycosylation	Note=N-linked (GlcNAc...) (high mannose) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	717	717	Glycosylation	Note=N-linked (GlcNAc...) (hybrid) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	801	801	Glycosylation	Note=N-linked (GlcNAc...) (hybrid) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	1074	1074	Glycosylation	Note=N-linked (GlcNAc...) (hybrid) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	1098	1098	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32363391,PMID:32366695,PMID:32979942
+spike	1134	1134	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32155444,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32155444,PMID:32366695,PMID:32979942
+spike	1158	1158	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32366695,PMID:32979942
+spike	1173	1173	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32366695,PMID:32979942
+spike	1194	1194	Glycosylation	Note=N-linked (GlcNAc...) (complex) asparagine%3B by host;Ontology_term=ECO:0000255,ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000255|HAMAP-Rule:MF_04099,ECO:0000269|PubMed:32363391,ECO:0000269|PubMed:32366695,ECO:0000269|PubMed:32979942;Dbxref=PMID:32363391,PMID:32366695,PMID:32979942
+spike	234	234	Mutagenesis	Note=Increased resistance to neutralizing antibodies. N->Q;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	331	331	Mutagenesis	Note=Reduced viral infectivity. N->Q;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	343	343	Mutagenesis	Note=Reduced viral infectivity. N->Q;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	452	452	Mutagenesis	Note=Increased resistance to neutralizing antibodies. L->R;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	475	475	Mutagenesis	Note=Increased resistance to neutralizing antibodies. A->V;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	483	483	Mutagenesis	Note=Increased resistance to neutralizing antibodies. V->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	490	490	Mutagenesis	Note=Increased resistance to neutralizing antibodies and human covalescent sera neutralization. F->L;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	493	493	Mutagenesis	Note=Reduced host ACE2-binding affinity in vitro. Q->N;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32225175;Dbxref=PMID:32225175
+spike	493	493	Mutagenesis	Note=Reduced host ACE2-binding affinity in vitro. Q->Y;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32225175;Dbxref=PMID:32225175
+spike	501	501	Mutagenesis	Note=Reduced host ACE2-binding affinity in vitro. N->T;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32225175;Dbxref=PMID:32225175
+spike	519	519	Mutagenesis	Note=Increased resistance to human covalescent sera neutralization. H->P;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32730807;Dbxref=PMID:32730807
+spike	614	614	Mutagenesis	Note=Increase of pseudotyped VSV particle production ex vivo. Increase of viral load in hamster upper respiratory tract. Produces more infectious particles when cultured in primary human epithelial cells%3B increases replication and transmissibility in hamsters and ferrets. D->G;Ontology_term=ECO:0000269,ECO:0000269,ECO:0000269;evidence=ECO:0000269|PubMed:32697968,ECO:0000269|PubMed:33106671,ECO:0000269|PubMed:33636719;Dbxref=PMID:32697968,PMID:33106671,PMID:33636719
+spike	679	684	Mutagenesis	Note=About 50%25 stronger entry efficiency in Vero E6 cells while 30%25 weaker entry efficiency in hACE2-expressing BHK cells. NSPRRA->IL;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32155444;Dbxref=PMID:32155444
+spike	681	684	Mutagenesis	Note=Optimized cleavage by host furin. PRRA->RRRK;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32362314;Dbxref=PMID:32362314
+spike	682	684	Mutagenesis	Note=Complete loss of cleavage by host furin. Missing;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32362314;Dbxref=PMID:32362314
+orf3a	33	141	Domain	Note=CoV 3a-like viroporin TM;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01311
+orf3a	145	237	Domain	Note=CoV 3a-like viroporin CD;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01312
+orf3a	133	133	Site	Note=Involved in polymerization;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P59632
+orf3a	32	32	Glycosylation	Note=O-linked (GalNAc...) threonine%3B by host;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P59632
+orf3a	34	34	Glycosylation	Note=O-linked (GalNAc...) threonine%3B by host;Ontology_term=ECO:0000255;evidence=ECO:0000255
+geneE	72	75	Motif	Note=PDZ-binding%3B required for interaction with human MPP5;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P59637
+orf6	58	58	Mutagenesis	Note=Complete loss of binding to the NUP98-RAE1 complex and IFN antagonistic function. M->R;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33097660;Dbxref=PMID:33097660
+orf7A	16	81	Domain	Note=X4e;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01267
+orf7A	117	121	Motif	Note=Di-lysine motif;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P59635
+orf7A	2	2	Mutagenesis	Note=No effect on ubiquitination. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33473190;Dbxref=PMID:33473190
+orf7A	32	32	Mutagenesis	Note=No effect on ubiquitination. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33473190;Dbxref=PMID:33473190
+orf7A	53	53	Mutagenesis	Note=No effect on ubiquitination. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33473190;Dbxref=PMID:33473190
+orf7A	72	72	Mutagenesis	Note=No effect on ubiquitination. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33473190;Dbxref=PMID:33473190
+orf7A	85	85	Mutagenesis	Note=No effect on ubiquitination. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33473190;Dbxref=PMID:33473190
+orf7A	117	117	Mutagenesis	Note=No effect on ubiquitination. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33473190;Dbxref=PMID:33473190
+orf7A	119	119	Mutagenesis	Note=Complete loss of ubiquitination. Partial loss of interferon pathway inhibition. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:33473190;Dbxref=PMID:33473190
+geneN	48	174	Domain	Note=CoV N NTD;Ontology_term=ECO:0000255,ECO:0000269;evidence=ECO:0000255|PROSITE-ProRule:PRU01276,ECO:0000269|PubMed:32363136;Dbxref=PMID:32363136
+geneN	247	364	Domain	Note=CoV N CTD;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01277
+geneN	1	51	Region	Note=Disordered;Ontology_term=ECO:0000256;evidence=ECO:0000256|SAM:MobiDB-lite
+geneN	41	186	Region	Note=RNA-binding;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04096
+geneN	63	83	Region	Note=Disordered;Ontology_term=ECO:0000256;evidence=ECO:0000256|SAM:MobiDB-lite
+geneN	168	212	Region	Note=Disordered;Ontology_term=ECO:0000256;evidence=ECO:0000256|SAM:MobiDB-lite
+geneN	233	266	Region	Note=Disordered;Ontology_term=ECO:0000256;evidence=ECO:0000256|SAM:MobiDB-lite
+geneN	258	361	Region	Note=Dimerization;Ontology_term=ECO:0000255;evidence=ECO:0000255|HAMAP-Rule:MF_04096
+geneN	361	391	Region	Note=Disordered;Ontology_term=ECO:0000256;evidence=ECO:0000256|SAM:MobiDB-lite
+geneN	109	109	Mutagenesis	Note=Significant decrease of RNA binding capacity. Y->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32363136;Dbxref=PMID:32363136
+orf1ab	154	180	Region	Note=Binding to 40s ribosome mRNA entry channel;Ontology_term=ECO:0000269,ECO:0000269;evidence=ECO:0000269|PubMed:32680882,ECO:0000269|PubMed:32908316;Dbxref=PMID:32680882,PMID:32908316
+orf1ab	926	999	Region	Note=Disordered;Ontology_term=ECO:0000256;evidence=ECO:0000256|SAM:MobiDB-lite
+orf1ab	4937	4947	Region	Note=Interaction with RMP Remdesivir;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32358203;Dbxref=PMID:32358203
+orf1ab	6256	6262	Region	Note=SAM-binding;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01299
+orf1ab	6339	6353	Region	Note=GpppA-binding;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01299
+orf1ab	180	181	Site	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	818	819	Site	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	2763	2764	Site	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	3263	3264	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	3569	3570	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	3859	3860	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	3942	3943	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	4140	4141	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	4253	4254	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	4392	4393	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	5324	5325	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	5925	5926	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	6452	6453	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	6798	6799	Site	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3
+orf1ab	154	157	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. YEDF->AEDA;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32908316;Dbxref=PMID:32908316
+orf1ab	164	165	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. KH->AA;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32908316;Dbxref=PMID:32908316
+orf1ab	164	164	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. K->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32680882;Dbxref=PMID:32680882
+orf1ab	165	165	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. H->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32680882;Dbxref=PMID:32680882
+orf1ab	171	175	Mutagenesis	Note=Complete loss of ribosome binding and cellular translation inhibition. RELMR->EELME;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32908316;Dbxref=PMID:32908316
+orf1ab	1629	1629	Mutagenesis	Note=Partial loss of ISG15 cleavage in vitro. V->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1ab	1632	1632	Mutagenesis	Note=Partial loss of ISG15 cleavage in vitro. F->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1ab	1638	1638	Mutagenesis	Note=Partial loss of ubiquitin cleavage in vitro%3B no effect on ISG15 cleavage in vitro. T->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1ab	1638	1638	Mutagenesis	Note=Increased cleavage of ubiquitin in vitro%3B no effect on ISG15 cleavage in vitro. T->L;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1ab	1674	1674	Mutagenesis	Note=Complete loss of PL-pro activity. C->S;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1ab	1831	1831	Mutagenesis	Note=Reduced inhibition by GRL-0617. Y->G%2CT;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32726803;Dbxref=PMID:32726803
+orf1ab	5253	5253	Mutagenesis	Note=Reduces RdRp inhibition by remdesivir. S->A;Ontology_term=ECO:0000269;evidence=ECO:0000269|PubMed:32526208;Dbxref=PMID:32526208
+orf9b	8	97	Domain	Note=9b;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU01268
+orf9b	45	53	Motif	Note=Nuclear export signal;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P59636

@@ -1,0 +1,199 @@
+#chrom	chromStart	chromEnd	name	score
+NC_045512v2	298	646	CoV Nsp1 globular	domain
+NC_045512v2	706	802	BetaCoV Nsp1 C...	domain
+NC_045512v2	811	1633	CoV Nsp2 N-ter...	domain
+NC_045512v2	1636	2329	CoV Nsp2 middle	domain
+NC_045512v2	2332	2719	CoV Nsp2 C-ter...	domain
+NC_045512v2	2725	3052	Ubiquitin-like 1	domain
+NC_045512v2	3337	3847	Macro 1	domain
+NC_045512v2	3955	4342	Macro 2	domain
+NC_045512v2	4363	4747	Macro 3	domain
+NC_045512v2	4750	4948	DPUP	domain
+NC_045512v2	4957	5125	Ubiquitin-like 2	domain
+NC_045512v2	5164	5959	Peptidase C16	domain
+NC_045512v2	5518	5632	zinc finger	domain
+NC_045512v2	5995	6328	Nucleic acid-b...	domain
+NC_045512v2	6400	6730	G2M	domain
+NC_045512v2	7003	7216	Lumenal	domain
+NC_045512v2	8242	8554	CoV Nsp3 Y3	domain
+NC_045512v2	8653	9397	Lumenal	domain
+NC_045512v2	9625	9646	Lumenal	domain
+NC_045512v2	9757	10054	Nsp4C	domain
+NC_045512v2	10054	10972	Peptidase C30	domain
+NC_045512v2	11086	11089	Lumenal	domain
+NC_045512v2	11230	11284	Lumenal	domain
+NC_045512v2	11515	11599	Lumenal	domain
+NC_045512v2	11842	12091	RdRp Nsp7 cofa...	domain
+NC_045512v2	12091	12685	RdRp Nsp8 cofa...	domain
+NC_045512v2	12685	13024	Nsp9 ssRNA-bin...	domain
+NC_045512v2	13024	13441	ExoN/MTase coa...	domain
+NC_045512v2	13459	14223	NiRAN	domain
+NC_045512v2	14235	14532	Nsp12 Interface	domain
+NC_045512v2	14532	16236	Nsp12 RNA-depe...	domain
+NC_045512v2	15273	15762	RdRp catalytic	domain
+NC_045512v2	16236	16488	CV ZBD	domain
+NC_045512v2	17004	17550	+)RNA virus he...	domain
+NC_045512v2	17550	18060	+)RNA virus he...	domain
+NC_045512v2	18252	18900	ExoN	domain
+NC_045512v2	18924	19620	N7-MTase	domain
+NC_045512v2	19620	19803	Nsp15 N-termin...	domain
+NC_045512v2	19803	20181	AV-Nsp11N/CoV-...	domain
+NC_045512v2	20229	20649	NendoU	domain
+NC_045512v2	20661	21546	Nidovirus-type...	domain
+NC_045512v2	21601	22471	BetaCoV S1-NTD	domain
+NC_045512v2	22561	23143	BetaCoV S1-CTD	domain
+NC_045512v2	25488	25815	CoV 3a-like vi...	domain
+NC_045512v2	25824	26103	CoV 3a-like vi...	domain
+NC_045512v2	26244	26283	Virion surface	domain
+NC_045512v2	26346	26469	Intravirion	domain
+NC_045512v2	26525	26579	Virion surface	domain
+NC_045512v2	26642	26672	Intravirion	domain
+NC_045512v2	26735	26759	Virion surface	domain
+NC_045512v2	26822	27188	Intravirion	domain
+NC_045512v2	27438	27636	X4e	domain
+NC_045512v2	27947	28256	SARS ORF8 Ig-like	domain
+NC_045512v2	28304	28574	9b	domain
+NC_045512v2	28414	28795	CoV N NTD	domain
+NC_045512v2	29011	29365	CoV N CTD	domain
+NC_045512v2	21610	21613	glyco	glycosylation site
+NC_045512v2	21742	21745	glyco	glycosylation site
+NC_045512v2	21781	21784	glyco	glycosylation site
+NC_045512v2	21925	21928	glyco	glycosylation site
+NC_045512v2	22006	22009	glyco	glycosylation site
+NC_045512v2	22054	22057	glyco	glycosylation site
+NC_045512v2	22261	22264	glyco	glycosylation site
+NC_045512v2	22405	22408	glyco	glycosylation site
+NC_045512v2	22528	22531	glyco	glycosylation site
+NC_045512v2	22534	22537	glyco	glycosylation site
+NC_045512v2	22552	22555	glyco	glycosylation site
+NC_045512v2	22588	22591	glyco	glycosylation site
+NC_045512v2	23368	23371	glyco	glycosylation site
+NC_045512v2	23407	23410	glyco	glycosylation site
+NC_045512v2	23530	23533	glyco	glycosylation site
+NC_045512v2	23587	23590	glyco	glycosylation site
+NC_045512v2	23593	23596	glyco	glycosylation site
+NC_045512v2	23686	23689	glyco	glycosylation site
+NC_045512v2	23710	23713	glyco	glycosylation site
+NC_045512v2	23962	23965	glyco	glycosylation site
+NC_045512v2	24781	24784	glyco	glycosylation site
+NC_045512v2	24853	24856	glyco	glycosylation site
+NC_045512v2	24961	24964	glyco	glycosylation site
+NC_045512v2	25033	25036	glyco	glycosylation site
+NC_045512v2	25078	25081	glyco	glycosylation site
+NC_045512v2	25141	25144	glyco	glycosylation site
+NC_045512v2	25264	25267	Lipidation	lipid moiety-binding region
+NC_045512v2	25267	25270	Lipidation	lipid moiety-binding region
+NC_045512v2	25279	25282	Lipidation	lipid moiety-binding region
+NC_045512v2	25282	25285	Lipidation	lipid moiety-binding region
+NC_045512v2	25288	25291	Lipidation	lipid moiety-binding region
+NC_045512v2	25300	25303	Lipidation	lipid moiety-binding region
+NC_045512v2	25303	25306	Lipidation	lipid moiety-binding region
+NC_045512v2	25309	25312	Lipidation	lipid moiety-binding region
+NC_045512v2	25318	25321	Lipidation	lipid moiety-binding region
+NC_045512v2	25321	25324	Lipidation	lipid moiety-binding region
+NC_045512v2	25485	25488	glyco	glycosylation site
+NC_045512v2	25491	25494	glyco	glycosylation site
+NC_045512v2	26534	26537	glyco	glycosylation site
+NC_045512v2	28124	28127	glyco	glycosylation site
+NC_045512v2	28798	28801	phos	modified residue
+NC_045512v2	28888	28891	phos	modified residue
+NC_045512v2	23596	23614	About 50% stronger entry efficiency in Vero E6 cells while 30% weaker entry efficiency in hACE2-expressing BHK cells.	mutation
+NC_045512v2	10486	10489	Complete loss of 3C-like proteinase nsp5 cleavage.	mutation
+NC_045512v2	28439	28442	Complete loss of binding to host TOMM70.	mutation
+NC_045512v2	27372	27375	Complete loss of binding to the NUP98-RAE1 complex and IFN antagonistic function.	mutation
+NC_045512v2	23605	23614	Complete loss of cleavage by host furin.	mutation
+NC_045512v2	25366	25369	Complete loss of COPI binding and increase in cell fusion.	mutation
+NC_045512v2	27950	27953	Complete loss of dimerization.	mutation
+NC_045512v2	27252	27273	Complete loss of Golgi localization.	mutation
+NC_045512v2	27252	27273	Complete loss of Golgi localization.	mutation
+NC_045512v2	28016	28019	Complete loss of hIL-17RA binding.	mutation
+NC_045512v2	28208	28211	Complete loss of hIL-17RA binding.	mutation
+NC_045512v2	28103	28106	Complete loss of hIL-17RC binding.	mutation
+NC_045512v2	28118	28121	Complete loss of hIL-17RC binding.	mutation
+NC_045512v2	28142	28145	Complete loss of IL17RA binding.	mutation
+NC_045512v2	28124	28127	Complete loss of N-glycosylation and of secretion.	mutation
+NC_045512v2	20319	20322	Complete loss of NSP15 endonuclease activity.	mutation
+NC_045512v2	20364	20367	Complete loss of NSP15 endonuclease activity.	mutation
+NC_045512v2	23593	23596	Complete loss of O-glycosylation by host GALNT1.	mutation
+NC_045512v2	23602	23605	Complete loss of O-glycosylation by host GALNT1.	mutation
+NC_045512v2	5284	5287	Complete loss of PL-pro activity.	mutation
+NC_045512v2	724	736	Complete loss of ribosome binding and cellular translation inhibition.	mutation
+NC_045512v2	754	760	Complete loss of ribosome binding and cellular translation inhibition.	mutation
+NC_045512v2	754	757	Complete loss of ribosome binding and cellular translation inhibition.	mutation
+NC_045512v2	757	760	Complete loss of ribosome binding and cellular translation inhibition.	mutation
+NC_045512v2	775	790	Complete loss of ribosome binding and cellular translation inhibition.	mutation
+NC_045512v2	12685	12688	Complete loss of RNA guanylyltransferase activity.	mutation
+NC_045512v2	12688	12691	Complete loss of RNA guanylyltransferase activity.	mutation
+NC_045512v2	15636	15639	Complete loss of RNA guanylyltransferase activity.	mutation
+NC_045512v2	28546	28549	Complete loss of RNA-binding.	mutation
+NC_045512v2	28591	28594	Complete loss of RNA-binding.	mutation
+NC_045512v2	27747	27750	Complete loss of ubiquitination. Partial loss of interferon pathway inhibition.	mutation
+NC_045512v2	22918	22921	Decreased HLA binding to NF9 epitope. Increased binding affinity to human ACE2.	mutation
+NC_045512v2	27381	27384	Does not affect repression of reporter protein expression.	mutation
+NC_045512v2	25372	25375	Improved COPI binding, reduced cell fusion and reduced levels of S1/S2 cleavage.	mutation
+NC_045512v2	23401	23404	Increase of pseudotyped VSV particle production ex vivo. Increase of viral load in hamster upper respiratory tract. Produces more infectious particles when cultured in primary human epithelial cells; increases replication and transmissibility in hamsters and ferrets.	mutation
+NC_045512v2	23062	23065	Increased binding affinity to human ACE2.	mutation
+NC_045512v2	5176	5179	Increased cleavage of ubiquitin in vitro; no effect on ISG15 cleavage in vitro.	mutation
+NC_045512v2	21766	21772	Increased incorporation of cleaved spike into virions.	mutation
+NC_045512v2	23116	23119	Increased resistance to human covalescent sera neutralization.	mutation
+NC_045512v2	23029	23032	Increased resistance to neutralizing antibodies and human covalescent sera neutralization.	mutation
+NC_045512v2	22261	22264	Increased resistance to neutralizing antibodies.	mutation
+NC_045512v2	22984	22987	Increased resistance to neutralizing antibodies.	mutation
+NC_045512v2	23008	23011	Increased resistance to neutralizing antibodies.	mutation
+NC_045512v2	22915	22918	Increased resistance to neutralizing antibodies. Decreases HLA binding to NF9 epitope. Increased binding affinity to human ACE2.	mutation
+NC_045512v2	27312	27384	Loss of interaction with human NUP98-RAE1 complex which suppresses the down-regulation of protein expression of newly transcribed genes in the host cell.	mutation
+NC_045512v2	27348	27384	Loss of interaction with human NUP98-RAE1 complex which suppresses the down-regulation of protein expression of newly transcribed genes in the host cell.	mutation
+NC_045512v2	27372	27375	Loss of interaction with human NUP98-RAE1 complex which suppresses the mRNA accumulation in the nucleus, the down-regulation of protein expression of newly transcribed genes in the host cell and blockade on nuclear import on a broad range of host factors.	mutation
+NC_045512v2	25560	25563	No effect on ion permeability.	mutation
+NC_045512v2	23578	23581	No effect on O-glycosylation by host GALNT1.	mutation
+NC_045512v2	23599	23602	No effect on O-glycosylation by host GALNT1.	mutation
+NC_045512v2	28834	28837	No effect on phosphorylation.	mutation
+NC_045512v2	23602	23614	Optimized cleavage by host furin.	mutation
+NC_045512v2	23611	23614	Partial improvement of cleavage by host furin.	mutation
+NC_045512v2	28879	28885	Partial increase of pathogenesis and fitness in vivo. No effect on virus replication ex vivo.	mutation
+NC_045512v2	21922	21925	Partial loss of biliverdin affinity.	mutation
+NC_045512v2	22129	22132	Partial loss of biliverdin affinity.	mutation
+NC_045512v2	25560	25566	Partial loss of Ca(2+) and NMDG(+) permeability.	mutation
+NC_045512v2	25737	25740	Partial loss of Ca(2+) and NMDG(+) permeability.	mutation
+NC_045512v2	25392	25515	Partial loss of Ca(2+) and NMDG(+) permeability. Increased localization at host plasma membrane.	mutation
+NC_045512v2	27962	27965	Partial loss of hIL-17RC binding.	mutation
+NC_045512v2	28076	28079	Partial loss of hIL-17RC binding.	mutation
+NC_045512v2	5149	5152	Partial loss of ISG15 cleavage in vitro.	mutation
+NC_045512v2	5158	5161	Partial loss of ISG15 cleavage in vitro.	mutation
+NC_045512v2	23587	23590	Partial loss of O-glycoslyation by host GALNT1.	mutation
+NC_045512v2	28888	28891	Partial loss of phosphorylation.	mutation
+NC_045512v2	28552	28555	Partial loss of RNA-binding.	mutation
+NC_045512v2	28759	28762	Partial loss of RNA-binding.	mutation
+NC_045512v2	28786	28789	Partial loss of RNA-binding.	mutation
+NC_045512v2	5176	5179	Partial loss of ubiquitin cleavage in vitro; no effect on ISG15 cleavage in vitro.	mutation
+NC_045512v2	23038	23041	Reduced host ACE2-binding affinity in vitro.	mutation
+NC_045512v2	23038	23041	Reduced host ACE2-binding affinity in vitro.	mutation
+NC_045512v2	23062	23065	Reduced host ACE2-binding affinity in vitro.	mutation
+NC_045512v2	5755	5758	Reduced inhibition by GRL-0617.	mutation
+NC_045512v2	22552	22555	Reduced viral infectivity.	mutation
+NC_045512v2	22588	22591	Reduced viral infectivity.	mutation
+NC_045512v2	16020	16023	Reduces RdRp inhibition by remdesivir.	mutation
+NC_045512v2	27201	27249	Retains interaction with human NUP98-RAE1 complex. Increases down-regulation of protein expression of newly transcribed genes in host cell.	mutation
+NC_045512v2	27264	27291	Retains interaction with human NUP98-RAE1 complex. Increases down-regulation of protein expression of newly transcribed genes in host cell.	mutation
+NC_045512v2	28597	28600	Significant decrease of RNA binding capacity.	mutation
+NC_045512v2	28792	28795	Significant increase of RNA-binding.	mutation
+NC_045512v2	23605	23617	Stabilization in prefusion state (in vaccine Ad26.COV2.S/Janssen Pharmaceutical).	mutation
+NC_045512v2	24517	24523	Stabilization in prefusion state (in vaccine BNT162b2/Pfizer-Biontech, vaccine mRNA-1273/Moderna, vaccine Ad26.COV2.S/Janssen Pharmaceutical).	mutation
+NC_045512v2	5284	5287	Unable to remove host IFIH1 (MDA5) ISGylation.	mutation
+NC_045512v2	802	808	PL-PRO_cleavage	cleavage
+NC_045512v2	2716	2722	PL-PRO_cleavage	cleavage
+NC_045512v2	8551	8557	PL-PRO_cleavage	cleavage
+NC_045512v2	10051	10057	3CL-PRO_cleavage	cleavage
+NC_045512v2	10969	10975	3CL-PRO_cleavage	cleavage
+NC_045512v2	10969	10975	3CL-PRO_cleavage	cleavage
+NC_045512v2	11839	11845	3CL-PRO_cleavage	cleavage
+NC_045512v2	12088	12094	3CL-PRO_cleavage	cleavage
+NC_045512v2	12682	12688	3CL-PRO_cleavage	cleavage
+NC_045512v2	13021	13027	3CL-PRO_cleavage	cleavage
+NC_045512v2	13438	13444	3CL-PRO_cleavage	cleavage
+NC_045512v2	16233	16239	3CL-PRO_cleavage	cleavage
+NC_045512v2	18036	18042	3CL-PRO_cleavage	cleavage
+NC_045512v2	19617	19623	3CL-PRO_cleavage	cleavage
+NC_045512v2	20655	20661	3CL-PRO_cleavage	cleavage
+NC_045512v2	23614	23620	Furin-like_cleavage	cleavage
+NC_045512v2	24004	24010	Fusion_peptide_cleavage	cleavage

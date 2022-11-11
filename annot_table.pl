@@ -16,6 +16,7 @@ nsp16	20659	21552	cds	.
 nsp11	13442	13480	cds	.
 spike	21563	25384	cds	.
 orf3A	25393	26220	cds	.
+orf3C	25457	25582	cds	.
 geneE	26245	26472	cds	.
 geneM	26523	27191	cds	.
 orf6	27202	27387	cds	.
@@ -23,7 +24,9 @@ orf7A	27394	27759	cds	.
 orf7B	27756	27887	cds	.
 orf8	27894	28259	cds	.
 geneN	28274	29533	cds	.
+orf9B	28284	28577	cds	.
 orf10	29558	29674	cds	.
+orf1a	266	13483	cds	.
 orf1ab	266	21555	cds	.
 clv1	799	807	clv	predicted-cleavage-site-of-nsp1	
 clv2	2713	2721	clv	predicted-cleavage-site-of-nsp2	
